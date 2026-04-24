@@ -11,8 +11,8 @@ Feature: User Login
      Given the user is on login page
      When user enter valid credentials (email and password)
         | field    | value                      |
-        | email    | profealbeiro2020@gmail.com |
-        | password | 12345                      |
+        | email    | juanesyt7@gmail.com        |
+        | password | &zA#hs5fARmE               |
 
 
     Then the user should be successfully authenticated
