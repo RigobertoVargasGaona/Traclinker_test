@@ -1,3 +1,6 @@
+# language: en
+# author: JuanAlvarez
+
 Feature: Add User
   As a system administrator
   I want to be able to add a new user
@@ -5,25 +8,29 @@ Feature: Add User
 
   Background:
     Given the administrator is authenticated in the system
+      | field    | value               |
+      | email    | juanesyt7@gmail.com |
+      | password | &zA#hs5fARmE        |
     And is on the users page and clicks the Add User button
 
-  Scenario: Successfully add a user
+  @createUser
+  Scenario Outline: Successfully add a user
     When I enter the user's data:
-      | field            | value                 |
-      | role             | Admin                 |
-      | first_name       | Miguel                |
-      | last_name        | Prueba                |
-      | second_last_name | Prueba                |
-      | city             | Medellin              |
-      | number           | 300300300             |
-      | email            | prueba@prueba.com     |
-      | address          | KR 00 CL 000          |
+      | field            | value              |
+      | role             | <role>             |
+      | first_name       | <first_name>       |
+      | last_name        | <last_name>        |
+      | second_last_name | <second_last_name> |
+      | city             | Medellin           |
+      | number           | 300300300          |
+      | email            | prueba@prueba.com  |
+      | address          | KR 00 CL 000       |
     And I click "Create"
-    Then it should be verified that the user "Miguel Prueba" was created successfully
-    And the user should appear in the list with the role "Admin"
+    Then it should be verified that the user "<first_name> <last_name>" was created successfully
+    And the user should appear in the list with the role "<role>"
 
     Examples:
-      | first_name | last_name | second_last_name | role  | status
-      | Albeiro    | Ramos     | Villalba         | Admin | active
-      | Juan       | Pérez     | Garcia           | Admin | active
-      | Miguel     | Prueba    | Prueba           | Admin | active
+      | first_name | last_name | second_last_name | role  | status |
+      | Albeiro    | Ramos     | Villalba         | Admin | active |
+      | Juan       | Pérez     | Garcia           | Admin | active |
+      | Miguel     | Prueba    | Prueba           | Admin | active |
