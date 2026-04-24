@@ -1,6 +1,12 @@
 Feature: edit user
   The user must be registered in order to edit their personal data.
 
+  Background:
+    Given the administrator is authenticated in the system
+      | field    | value               |
+      | email    | juanesyt7@gmail.com |
+      | password | &zA#hs5fARmE        |
+    And is on the users page and clicks the Add User button
 
   @editUser
   Scenario: User edit successful
