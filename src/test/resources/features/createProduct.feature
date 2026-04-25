@@ -16,14 +16,13 @@ Feature: Create Product
   @createProduct
   Scenario Outline: Successfully add a product
     When I enter the product's data:
-      | field           | value             |
-      | entry_order     | <entry_order>     |
-      | category        | <category>        |
-      | subcategory     | <subcategory>     |
-      | brand           | <brand>           |
-      | model           | <model>           |
-      | serial          | <serial>          |
-      | warranty_period | <warranty_period> |
+      | field           | value                       |
+      | entry_order     | <INP00001>                  |
+      | subcategory     | < laptops>                  |
+      | brand           | <Lenovo>                    |
+      | model           | <Lenovo ThinkPad X1 Carbon> |
+      | serial          | <nuevo >                    |
+      | warranty_period | <24 Months >                |
     And I click "Create"
     Then it should be verified that the product "<brand> <subcategory>" was created successfully
     And the product should appear in the list with the other products
