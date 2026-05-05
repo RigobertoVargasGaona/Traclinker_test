@@ -1,19 +1,16 @@
-#language: en
-#author: RigobertoVargas
+# language: es
+# author: RigobertoVargas
 
-Feature: User Login
-    As a registered user
-    I want to log in to the application
-    So that I can access my account
+Característica: Inicio de sesión
+  Como usuario registrado
+  quiero iniciar sesión en la aplicación
+  para poder acceder a mi cuenta
 
-   @authentication
-   Scenario: Verify  succesful authentication on Traclinker
-     Given the user is on login page
-     When user enter valid credentials (email and password)
-        | field    | value                      |
-        | email    | juanesyt7@gmail.com        |
-        | password | &zA#hs5fARmE               |
-
-
-    Then the user should be successfully authenticated
-
+  @autenticacion
+  Escenario: Verificar autenticación exitosa en Traclinker
+    Dado que el usuario está en la página de inicio de sesión
+    Cuando el usuario ingresa credenciales válidas
+      | campos      | valores               |
+      | correo      | juanesyt7@gmail.com |
+      | contraseña | &zA#hs5fARmE        |
+    Entonces el usuario debería autenticarse exitosamente
