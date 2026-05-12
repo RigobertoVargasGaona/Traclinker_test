@@ -1,5 +1,5 @@
 # language: es
-# author: RigobertoVargas
+# author: Rigoberto Vargas
 
 Característica: Inicio de sesión
   Como usuario registrado

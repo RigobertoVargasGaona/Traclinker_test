@@ -1,5 +1,5 @@
 # language: es
-# author: JuanAlvarez
+# author: Juan Alvarez
 
 Característica: Agregar usuario
   Como administrador del sistema
@@ -11,26 +11,28 @@ Característica: Agregar usuario
       | campo      | valores             |
       | correo     | juanesyt7@gmail.com |
       | contraseña | &zA#hs5fARmE        |
-    Y está en la página de usuarios y hace clic en el botón Agregar usuario
 
   @crearUsuario
   Esquema del escenario: Agregar un usuario correctamente
+    Dado que el usuario se encuentra en la página o módulo de usuarios
     Cuando se ingresan los datos del usuario
-      | campos            | valores           |
-      | rol              | <admin>            |
-      | nombre           | <Miguel>           |
-      | primer apellido  | <Prueba >          |
-      | segundo apellido | <Prueba >          |
-      | ciudad           | Medellin           |
-      | numero telefono  | 300300300          |
-      | correo           | prueba@prueba.com  |
-      | direccion        | KR 00 CL 000       |
-    Y se hace clic en "Crear"
-    Entonces se debe verificar que el usuario "<first_name> <last_name>" fue creado correctamente
-    Y el usuario debería aparecer en la lista con el rol "<role>"
+      | campos           | valores            |
+      | rol              | <rol>              |
+      | nombre           | <nombre>           |
+      | primer apellido  | <primer apellido>  |
+      | segundo apellido | <segundo apellido> |
+      | ciudad           | <ciudad>           |
+      | numero telefono  | <numero telefono>  |
+      | correo           | <correo>           |
+      | direccion        | <direccion>        |
+    Entonces debe hacer clic en el botón que dice "Crear"
+    Entonces se debe verificar que el usuario con el nombre "<nombre> <primer apellido>" fue creado correctamente
+    Entonces el usuario debería aparecer en la lista con el nombre "<nombre> <primer apellido> <segundo apellido>"
 
     Ejemplos:
-      | nombre     | primer apellido | segundo apellido | rol   | status |
+
+    Ejemplos:
+      | nombre     | primer apellido | segundo apellido | rol   | estado |
       | Albeiro    | Ramos           | Villalba         | Admin | activo |
       | Juan       | Pérez           | Garcia           | Admin | activo |
       | Miguel     | Prueba          | Prueba           | Admin | activo |

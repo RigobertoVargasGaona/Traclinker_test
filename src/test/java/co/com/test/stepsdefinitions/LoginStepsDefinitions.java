@@ -3,17 +3,36 @@ package co.com.test.stepsdefinitions;
 import co.com.test.tasks.AbrirPagina;
 import cucumber.api.DataTable;
 import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import cucumber.api.java.es.Cuando;
+import cucumber.api.java.es.Dado;
+import cucumber.api.java.es.Entonces;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public  class LoginStepsDefinitions {
 
-    @Given("^the user is on login page$")
-    public void theUserIsOnLoginPage() {
+
+
+    @Dado("^que el usuario está en la página de inicio de sesión$")
+    public void queElUsuarioEstáEnLaPáginaDeInicioDeSesión() {
         // Write code here that turns the phrase above into concrete actions
         theActorInTheSpotlight().wasAbleTo(AbrirPagina.laPagina());
+    }
+
+    @Cuando("^el usuario ingresa credenciales válidas$")
+    public void elUsuarioIngresaCredencialesVálidas(DataTable arg1) {
+        // Write code here that turns the phrase above into concrete actions
+        // For automatic transformation, change DataTable to one of
+        // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+        // E,K,V must be a scalar (String, Integer, Date, enum etc).
+        // Field names for YourType must match the column names in
+        // your feature file (except for spaces and capitalization).
+        throw new PendingException();
+    }
+
+    @Entonces("^el usuario debería autenticarse exitosamente$")
+    public void elUsuarioDeberíaAutenticarseExitosamente() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
     }
 }

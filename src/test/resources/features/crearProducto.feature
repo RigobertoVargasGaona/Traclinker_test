@@ -11,21 +11,21 @@ Característica: Crear producto
       | campos     | valores               |
       | correo     | juanesyt7@gmail.com |
       | contraseña | &zA#hs5fARmE        |
-    Y está en la página de productos y hace clic en el botón Agregar producto
 
   @crearProducto
   Esquema del escenario: Agregar un producto correctamente
+    Dado que el usuario está en la página o módulo de productos y hace click en agregar producto
     Cuando se ingresan los datos del producto
-      | campos           | valores                     |
-      | orden entrada    | <INP00001 >                 |
-      | subcategoria     | <portatiles>                |
-      | marca            | <Lenovo>                    |
-      | modelo           | <Lenovo ThinkPad X1 Carbon> |
-      | serie            | <serial>                    |
-      | periode garantia | <24 meses>                  |
-    Entonces se debe verificar que el producto "<brand> <subcategory>" se haya creado correctamente
-           Y  el producto debería aparecer en la lista junto con los demás productos
+      | campos           | valores            |
+      | orden entrada    | <orden entrada>    |
+      | subcategoria     | <subcategoria>     |
+      | marca            | <marca>            |
+      | modelo           | <modelo>           |
+      | serial           | <serial>           |
+      | periodo garantia | <periodo garantia> |
+    Entonces se debe verificar que el producto con serial "<serial>" se haya creado correctamente
+    Entonces el producto debería aparecer en la lista junto con los demás productos
 
     Ejemplos:
-      | orden entrada | categoria   | subcategoria | marca  | modelo                    | serie  | periodo garantia |
-      | INP00001      | computadores| portatiles   | Lenovo | Lenovo ThinkPad X1 Carbon | nuevo  | 24 meses         |
+      | orden entrada | categoria    | subcategoria | marca  | modelo                    | serial    | periodo garantia |
+      | INP00001      | computadores | portatiles   | Lenovo | Lenovo ThinkPad X1 Carbon | nuevo123  | 24 meses         |
