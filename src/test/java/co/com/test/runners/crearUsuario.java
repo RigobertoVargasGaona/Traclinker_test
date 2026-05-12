@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/createUser.feature",
+        features = "src/test/resources/features/crearUsuario.feature",
         glue = {"co.com.stepsdefinitions"},
         plugin = {"pretty", "html:target/cucumber-reports"},
         snippets = SnippetType.CAMELCASE
 )
-public class createUser {
+public class crearUsuario {
 }
