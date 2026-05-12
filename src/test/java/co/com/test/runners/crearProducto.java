@@ -7,11 +7,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/createProduct.feature",
+        features = "src/test/resources/features/crearProducto.feature",
         glue = {"co.com.stepsdefinitions"},
         plugin = {"pretty", "html:target/cucumber-reports"},
         snippets = SnippetType.CAMELCASE
 )
 
-public class createProduct {
+public class crearProducto {
 }
