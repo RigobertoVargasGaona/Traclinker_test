@@ -1,6 +1,6 @@
-package co.com.test.tasks;
+package org.example.tasks;
 
-import co.com.test.utils.hooks.SesionVariable;
+import org.example.utils.hooks.SesionVariable;
 import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -10,8 +10,8 @@ import org.example.models.CredencialesInicioSesion;
 
 import java.util.List;
 
-import static co.com.test.userinterfaces.autenticacion.*;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+import static org.example.userinterfaces.autenticacion.*;
 
 public class Autenticarse implements Task {
 
