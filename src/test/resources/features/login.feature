@@ -13,3 +13,4 @@ Característica: Inicio de sesión
       | usuario             | clave        |
       | juanesyt7@gmail.com | &zA#hs5fARmE |
     Entonces el usuario debería autenticarse exitosamente
+    Entonces el usuario debería estar en la pagina de bienvenida
