@@ -1,8 +1,7 @@
 package co.com.test.stepsdefinitions;
 
-import co.com.test.tasks.AbrirPagina;
-import co.com.test.tasks.Autenticarse;
-import cucumber.api.DataTable;
+import org.example.tasks.AbrirPagina;
+import org.example.tasks.Autenticarse;
 import cucumber.api.PendingException;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
