@@ -1,6 +1,6 @@
-package co.com.test.tasks;
+package org.example.tasks;
 
-import co.com.test.userinterfaces.Inicio;
+import org.example.userinterfaces.Inicio;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

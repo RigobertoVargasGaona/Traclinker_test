@@ -1,4 +1,4 @@
-package co.com.test.userinterfaces;
+package org.example.userinterfaces;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;

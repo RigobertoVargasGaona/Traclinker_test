@@ -1,4 +1,4 @@
-package co.com.test.userinterfaces;
+package org.example.userinterfaces;
 
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.targets.Target;

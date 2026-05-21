@@ -13,3 +13,4 @@ Característica: Inicio de sesión
       | usuario             | clave        |
       | rigovg1054@gmail.com | LnojJozP0S64 |
     Entonces el usuario debería autenticarse exitosamente
+    Entonces el usuario debería estar en la pagina de bienvenida

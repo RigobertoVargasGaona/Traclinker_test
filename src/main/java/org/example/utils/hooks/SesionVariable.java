@@ -1,4 +1,4 @@
-package co.com.test.utils.hooks;
+package org.example.utils.hooks;
 
 public enum SesionVariable {
     usuario,

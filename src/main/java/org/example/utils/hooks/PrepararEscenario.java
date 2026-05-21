@@ -1,4 +1,4 @@
-package co.com.test.utils.hooks;
+package org.example.utils.hooks;
 
 import cucumber.api.java.Before;
 import net.serenitybdd.screenplay.actors.OnlineCast;
