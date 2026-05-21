@@ -11,5 +11,5 @@ Característica: Inicio de sesión
     Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
       | usuario             | clave        |
-      | juanesyt7@gmail.com | &zA#hs5fARmE |
+      | rigovg1054@gmail.com | LnojJozP0S64 |
     Entonces el usuario debería autenticarse exitosamente
