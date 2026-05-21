@@ -7,10 +7,10 @@ Característica: Crear producto
   para gestionar el inventario.
 
   Antecedentes:
-    Dado que el administrador está autenticado en el sistema
-      | campos     | valores               |
-      | correo     | juanesyt7@gmail.com |
-      | contraseña | &zA#hs5fARmE        |
+    Dado que el usuario está en la página de inicio de sesión
+    Cuando el usuario ingresa credenciales válidas
+      | usuario             | clave        |
+      | juanesyt7@gmail.com | &zA#hs5fARmE |
 
   @crearProducto
   Esquema del escenario: Agregar un producto correctamente

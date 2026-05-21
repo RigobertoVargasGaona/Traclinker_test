@@ -1,11 +1,14 @@
 package co.com.test.stepsdefinitions;
 
-import co.com.test.tasks.AbrirPagina;
-import cucumber.api.DataTable;
+import org.example.tasks.AbrirPagina;
+import org.example.tasks.Autenticarse;
 import cucumber.api.PendingException;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
+import org.example.models.CredencialesInicioSesion;
+
+import java.util.List;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
@@ -20,14 +23,19 @@ public  class LoginStepsDefinitions {
     }
 
     @Cuando("^el usuario ingresa credenciales válidas$")
-    public void elUsuarioIngresaCredencialesVálidas(DataTable arg1) {
+    public void elUsuarioIngresaCredencialesVálidas(
+            List<CredencialesInicioSesion> credenciales) {
+            theActorInTheSpotlight()
+                    .attemptsTo(Autenticarse.aute(credenciales));
         // Write code here that turns the phrase above into concrete actions
         // For automatic transformation, change DataTable to one of
         // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
         // E,K,V must be a scalar (String, Integer, Date, enum etc).
         // Field names for YourType must match the column names in
         // your feature file (except for spaces and capitalization).
-        throw new PendingException();
+
+
+
     }
 
     @Entonces("^el usuario debería autenticarse exitosamente$")

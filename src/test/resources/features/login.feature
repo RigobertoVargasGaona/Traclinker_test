@@ -10,7 +10,7 @@ Característica: Inicio de sesión
   Escenario: Verificar autenticación exitosa en Traclinker
     Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
-      | campos      | valores               |
-      | correo      | juanesyt7@gmail.com |
-      | contraseña | &zA#hs5fARmE        |
+      | usuario             | clave        |
+      | juanesyt7@gmail.com | &zA#hs5fARmE |
     Entonces el usuario debería autenticarse exitosamente
+    Entonces el usuario debería estar en la pagina de bienvenida
