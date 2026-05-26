@@ -17,5 +17,10 @@ public class autenticacion extends PageObject {
     public static final Target BTN_INICIOSESION =
             Target.the("botón iniciar sesión")
                     .located(By.id("login-button"));
+
+    public static final Target MENSAJE_LOGIN =
+            Target.the("")
+                    .located(By.id("welcome-message"));
+
 }
 

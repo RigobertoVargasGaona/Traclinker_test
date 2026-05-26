@@ -1,5 +1,6 @@
 package co.com.test.stepsdefinitions;
 
+import org.example.questions.ValidacionLogin;
 import org.example.tasks.AbrirPagina;
 import org.example.tasks.Autenticarse;
 import cucumber.api.PendingException;
@@ -10,6 +11,7 @@ import org.example.models.CredencialesInicioSesion;
 
 import java.util.List;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public  class LoginStepsDefinitions {
@@ -38,9 +40,12 @@ public  class LoginStepsDefinitions {
 
     }
 
-    @Entonces("^el usuario debería autenticarse exitosamente$")
-    public void elUsuarioDeberíaAutenticarseExitosamente() {
+
+
+    @Entonces("^el usuario debería estar en la pagina de bienvenida$")
+    public void elUsuarioDeberíaEstarEnLaPaginaDeBienvenida() {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        theActorInTheSpotlight()
+                .should(seeThat(ValidacionLogin.validacionLogin()));
     }
 }
