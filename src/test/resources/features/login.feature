@@ -13,3 +13,4 @@ Característica: Inicio de sesión
       | usuario             | clave        |
       | prueba1@gmail.com | 12345 |
     Entonces el usuario debería estar en la pagina de bienvenida
+
