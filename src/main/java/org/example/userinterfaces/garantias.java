@@ -19,7 +19,6 @@ public class garantias extends PageObject {
             Target.the("Campo de DIRECCION")
                     .located(By.id("address"));
 
-
     public static final Target INPUT_CIUDAD =
             Target.the("Campo de nombre de la cuidad")
             .located(By.id("city"));
@@ -34,11 +33,11 @@ public class garantias extends PageObject {
 
     public static final Target BTN_GARANTIAS=
             Target.the("Boton para ingreso al modulo de garantías")
-            .located(By.id(""));
+            .located(By.id("warranties-aside-button"));
 
     public static final Target  BTN_AGREGAR_GARANTIA =
             Target.the("Boton para agregar garantias")
-            .located(By.id(""));
+            .located(By.id("create-button"));
 
     public static final Target BTN_CREAR =
             Target.the("Boton para crear garantía")
