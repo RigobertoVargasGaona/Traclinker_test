@@ -1,7 +1,5 @@
 # language: es
 # author: Rigoberto Vargas
-# language: es
-# author: Rigoberto Vargas
 
 Característica: Gestión de Garantías
   Como usuario autorizado del sistema Traclinker
@@ -12,12 +10,12 @@ Característica: Gestión de Garantías
     Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
       | usuario           | clave |
-      | prueba1@gmail.com | 12345 |
+      | prueba1@gmail.com | 12345.*|
 
   @garantias @registro
   Escenario: Registrar una nueva garantía exitosamente
     Dado que el usuario está en el módulo de garantías
     Cuando el usuario selecciona la opción "Nueva Garantía"
-      | serial      | cliente    | telefono   | direccion       | descripcion               | adjuntos                    |
-      | QTYC1123122 | Juan Perez | 3008765432 | Calle 50 #10-25 | Problema con la impresión | c:/mvkjhsdfksl/jhhfkdsjlfh |
-
+      | serial      | cliente    | telefono   | direccion       | descripcion               | adjuntos                    | cuidad|
+      | QTYC1123122 | Juan Perez | 3008765432 | Calle 50 #10-25 norte | Problema con la impresión | c:/mvkjhsdfksl/jhhfkdsjlfh | Bogota |
+    Entonces el sistema debe mostrar el mensaje "Garantía registrada exitosamente"

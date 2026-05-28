@@ -33,7 +33,7 @@ public class garantias extends PageObject {
 
     public static final Target BTN_GARANTIAS=
             Target.the("Boton para ingreso al modulo de garantías")
-            .located(By.id("warranties-aside-button"));
+            .located(By.id("warranties-desktop-aside-button"));
 
     public static final Target  BTN_AGREGAR_GARANTIA =
             Target.the("Boton para agregar garantias")
@@ -41,7 +41,7 @@ public class garantias extends PageObject {
 
     public static final Target BTN_CREAR =
             Target.the("Boton para crear garantía")
-            .located(By.id(""));
+            .located(By.id("confirm-button"));
 
     public static final Target MEANSAJE_GARANTIAS =
             Target.the("")

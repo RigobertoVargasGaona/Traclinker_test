@@ -7,7 +7,7 @@ public class DatosGarantias {
     private String direccion;
     private String descripcion;
     private String adjuntos;
-
+    private String cuidad;
     public String getSerial(){
         return serial;
     }
@@ -20,10 +20,13 @@ public class DatosGarantias {
     public String getDireccion(){
         return direccion;
     }
-    public String  getDescripcion(){
-        return direccion;
-    }
-    public String getAdjuntos(){
+     public String getAdjuntos(){
         return adjuntos;
+    }
+    public String getCuidad(){
+        return cuidad;
+    }
+    public String getDescripcion(){
+        return descripcion;
     }
 }
