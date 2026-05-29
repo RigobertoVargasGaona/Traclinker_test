@@ -1,58 +1,41 @@
 package co.com.test.stepsdefinitions;
 
-import cucumber.api.DataTable;
 import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import cucumber.api.java.es.Cuando;
+import cucumber.api.java.es.Dado;
+import cucumber.api.java.es.Entonces;
+import org.example.models.CrearUsuarioModelo;
+import org.example.questions.ValidacionCrearUsuario;
+import org.example.tasks.CrearUsuario;
+
+import java.util.List;
+
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class crearUsuarioStepsDefinitions {
 
 
-    @Given("^the administrator is authenticated in the system$")
-    public void theAdministratorIsAuthenticatedInTheSystem(DataTable arg1) {
+    @Cuando("^el usuario se encuentra en la página o módulo de usuarios y da clic en el botón de crear usuario se ingresan los datos del usuario$")
+    public void seIngresanLosDatosDelUsuario(List<CrearUsuarioModelo> datos) {
         // Write code here that turns the phrase above into concrete actions
         // For automatic transformation, change DataTable to one of
         // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
         // E,K,V must be a scalar (String, Integer, Date, enum etc).
         // Field names for YourType must match the column names in
         // your feature file (except for spaces and capitalization).
-        throw new PendingException();
+        theActorInTheSpotlight().attemptsTo(
+                CrearUsuario.crearUsuario(datos)
+        );
     }
 
-    @Given("^is on the users page and clicks the Add User button$")
-    public void isOnTheUsersPageAndClicksTheAddUserButton() {
+    @Entonces("^se debe verificar que el usuario fue creado correctamente$")
+    public void seDebeVerificarQueElUsuarioFueCreadoCorrectamente() {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        theActorInTheSpotlight().should(seeThat(
+                ValidacionCrearUsuario.validacionCrearUsuario()
+        ));
     }
 
-    @When("^I enter the user's data:$")
-    public void iEnterTheUserSData(DataTable arg1) {
-        // Write code here that turns the phrase above into concrete actions
-        // For automatic transformation, change DataTable to one of
-        // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-        // E,K,V must be a scalar (String, Integer, Date, enum etc).
-        // Field names for YourType must match the column names in
-        // your feature file (except for spaces and capitalization).
-        throw new PendingException();
-    }
-
-    @When("^I click \"([^\"]*)\"$")
-    public void iClick(String arg1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
-
-    @Then("^it should be verified that the user \"([^\"]*)\" was created successfully$")
-    public void itShouldBeVerifiedThatTheUserWasCreatedSuccessfully(String arg1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
-
-    @Then("^the user should appear in the list with the role \"([^\"]*)\"$")
-    public void theUserShouldAppearInTheListWithTheRole(String arg1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
 
 }
