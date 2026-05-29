@@ -9,22 +9,17 @@ Característica: Crear producto
   Antecedentes:
     Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
-      | usuario             | clave        |
-      | juanesyt7@gmail.com | &zA#hs5fARmE |
+      | usuario             | clave      |
+      | prueba1@gmail.com   | 12345.*    |
 
   @crearProducto
   Esquema del escenario: Agregar un producto correctamente
     Dado que el usuario está en la página o módulo de productos y hace click en agregar producto
-    Cuando se ingresan los datos del producto
-      | campos           | valores            |
-      | orden entrada    | <orden entrada>    |
-      | subcategoria     | <subcategoria>     |
-      | marca            | <marca>            |
-      | modelo           | <modelo>           |
-      | serial           | <serial>           |
-      | periodo garantia | <periodo garantia> |
-    Entonces se debe verificar que el producto con serial "<serial>" se haya creado correctamente
-    Entonces el producto debería aparecer en la lista junto con los demás productos
+    Cuando se ingresan los datos del producto que se va a agregar
+      | orden_de_entrada | subcategoria | marca | modelo | serial      | periodo_de_garantia |
+      | 1                | 1            | 1     |  1     | NUEVO124 |  1                  |
+
+    Entonces se debe verificar que el producto se haya creado correctamente
 
     Ejemplos:
       | orden entrada | categoria    | subcategoria | marca  | modelo                    | serial    | periodo garantia |
