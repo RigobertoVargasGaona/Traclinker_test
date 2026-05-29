@@ -16,8 +16,6 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public  class LoginStepsDefinitions {
 
-
-
     @Dado("^que el usuario está en la página de inicio de sesión$")
     public void queElUsuarioEstáEnLaPáginaDeInicioDeSesión() {
         // Write code here that turns the phrase above into concrete actions
@@ -35,12 +33,7 @@ public  class LoginStepsDefinitions {
         // E,K,V must be a scalar (String, Integer, Date, enum etc).
         // Field names for YourType must match the column names in
         // your feature file (except for spaces and capitalization).
-
-
-
     }
-
-
 
     @Entonces("^el usuario debería estar en la pagina de bienvenida$")
     public void elUsuarioDeberíaEstarEnLaPaginaDeBienvenida() {

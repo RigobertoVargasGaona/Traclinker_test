@@ -22,7 +22,7 @@ public class crearGarantiaStepsDefinitions {
     }
 
     @Cuando("^el usuario selecciona la opción \"([^\"]*)\"$")
-    public void elUsuarioSeleccionaLaOpción(String opcion,List<DatosGarantias> registros) {
+    public void elUsuarioSeleccionaLaOpción(List<DatosGarantias> registros) {
         theActorInTheSpotlight()
                 .attemptsTo(CrearGarantia.data(registros));
     }

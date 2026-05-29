@@ -7,7 +7,7 @@ public class DatosGarantias {
     private String direccion;
     private String descripcion;
     private String adjuntos;
-    private String cuidad;
+    private String ciudad;
     public String getSerial(){
         return serial;
     }
@@ -23,8 +23,8 @@ public class DatosGarantias {
      public String getAdjuntos(){
         return adjuntos;
     }
-    public String getCuidad(){
-        return cuidad;
+    public String getCiudad(){
+        return ciudad;
     }
     public String getDescripcion(){
         return descripcion;
