@@ -1,22 +1,21 @@
 package co.com.test.stepsdefinitions;
 
+
 import cucumber.api.java.es.Cuando;
-import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
-import org.example.models.CrearProductoModelo;
-import org.example.questions.ValidacionProductoCreado;
-import org.example.tasks.CrearProducto;
+import org.example.models.EditarProductoModelo;
+import org.example.questions.ValidacionProductoEditado;
+import org.example.tasks.EditarProducto;
 
 import java.util.List;
-import java.util.Map;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
-public class crearProductoStepsDefinitions {
+public class editarProductoStepDefinitions {
 
-    @Cuando("^el usuario está en la página o módulo de productos y hace click en agregar producto se ingresan los datos del producto que se va a agregar$")
-    public void seIngresanLosDatosDelProductoQueSeVaAAgregar(List<CrearProductoModelo> datos) {
+    @Cuando("^que el usuario está en la pagina o modulo de productos y hace click en el boton de editar producto se ingresan los datos del producto$")
+    public void seIngresanLosDatosDelProducto(List<EditarProductoModelo> datos) {
         // Write code here that turns the phrase above into concrete actions
         // For automatic transformation, change DataTable to one of
         // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
@@ -24,14 +23,14 @@ public class crearProductoStepsDefinitions {
         // Field names for YourType must match the column names in
         // your feature file (except for spaces and capitalization).
         theActorInTheSpotlight().attemptsTo(
-                CrearProducto.crearProducto(datos)
+                EditarProducto.editarProducto(datos)
         );
     }
 
-    @Entonces("^se debe verificar que el producto se haya creado correctamente$")
-    public void seDebeVerificarQueElProductoSeHayaCreadoCorrectamente() {
+    @Entonces("^se deberia ver el producto en la lista con el nuevo serial editado$")
+    public void seDeberiaVerElProductoEnLaListaConElNuevoSerialEditado() {
         // Write code here that turns the phrase above into concrete actions
-        theActorInTheSpotlight().should(seeThat(ValidacionProductoCreado.validarProductoCreado()));
+        theActorInTheSpotlight().should(seeThat(ValidacionProductoEditado.validarProductoEditado()));
     }
 
 }
