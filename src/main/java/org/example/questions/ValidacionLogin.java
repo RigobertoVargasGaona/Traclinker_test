@@ -15,7 +15,7 @@ public class ValidacionLogin implements Question<Boolean> {
     private static final Logger logger =
             LoggerFactory.getLogger(ValidacionLogin.class);
 
-    private static final String MENSAJE_ESPERADO = "Bienvenido,";
+    private static final String MENSAJE_ESPERADO = "Bienvenido, Rigoberto";
 
     public static ValidacionLogin validacionLogin() {
         return new ValidacionLogin();
@@ -25,10 +25,6 @@ public class ValidacionLogin implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         try {
-            actor.attemptsTo(
-                    WaitUntil.the(MENSAJE_LOGIN, isVisible())
-                            .forNoMoreThan(3).seconds()
-            );
             String texto = Text.of(MENSAJE_LOGIN).viewedBy(actor).asString().trim();
             logger.info("Texto obtenido: {}", texto);
             return MENSAJE_ESPERADO.equalsIgnoreCase(texto);
