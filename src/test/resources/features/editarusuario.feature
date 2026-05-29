@@ -5,10 +5,10 @@ Característica: Editar usuario
   El usuario debe estar registrado para poder editar sus datos personales.
 
   Antecedentes:
-    Dado que el administrador está autenticado en el sistema
-      | campos     | valores              |
-      | correo     | juanesyt7@gmail.com  |
-      | contraseña | &zA#hs5fARmE         |
+    Dado que el usuario está en la página de inicio de sesión
+    Cuando el usuario ingresa credenciales válidas
+      | usuario             | clave      |
+      | juanesyt7@gmail.com | 12345.*    |
 
   @editarUsuario
   Esquema del escenario: Edición de usuario exitosa

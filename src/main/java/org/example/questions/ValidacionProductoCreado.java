@@ -8,24 +8,24 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
-import static org.example.userinterfaces.autenticacion.MENSAJE_LOGIN;
+import static org.example.userinterfaces.PaginaProductos.MENSAJE_DE_CONFIRMACION;
 
-
-public class ValidacionLogin implements Question<Boolean> {
+public class ValidacionProductoCreado implements Question<Boolean> {
     private static final Logger logger =
-            LoggerFactory.getLogger(ValidacionLogin.class);
+            LoggerFactory.getLogger(ValidacionProductoCreado.class);
 
-    private static final String MENSAJE_ESPERADO = "Bienvenido, Rigoberto";
+    private static final String MENSAJE_ESPERADO = "Producto Creado Correctamente";
 
-    public static ValidacionLogin validacionLogin() {
-        return new ValidacionLogin();
+    public static ValidacionProductoCreado validarProductoCreado() {
+        return new ValidacionProductoCreado();
     }
-
 
     @Override
     public Boolean answeredBy(Actor actor) {
         try {
-            String texto = Text.of(MENSAJE_LOGIN).viewedBy(actor).asString().trim();
+            WaitUntil.the(MENSAJE_DE_CONFIRMACION, isVisible())
+                    .forNoMoreThan(2).seconds();
+            String texto = Text.of(MENSAJE_DE_CONFIRMACION).viewedBy(actor).asString().trim();
             logger.info("Texto obtenido: {}", texto);
             return MENSAJE_ESPERADO.equalsIgnoreCase(texto);
         } catch (Exception e) {

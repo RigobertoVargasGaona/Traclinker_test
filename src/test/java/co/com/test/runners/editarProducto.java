@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/crearProducto.feature",
+        features = "src/test/resources/features/editarProducto.feature",
         glue = {
                 "co.com.test.stepsdefinitions",
                 "org.example.utils.hooks"
@@ -16,5 +16,5 @@ import org.junit.runner.RunWith;
         snippets = SnippetType.CAMELCASE
 )
 
-public class crearProducto {
+public class editarProducto {
 }

@@ -1,38 +1,24 @@
 # language: es
 # author: Juan Alvarez
 
-Característica: Agregar usuario
+Característica: Crear usuario
   Como administrador del sistema
-  quiero poder agregar un nuevo usuario
+  quiero poder crear un nuevo usuario
   para gestionar el acceso a la plataforma
 
   Antecedentes:
-    Dado que el administrador está autenticado en el sistema
-      | campo      | valores             |
-      | correo     | juanesyt7@gmail.com |
-      | contraseña | &zA#hs5fARmE        |
+    Dado que el usuario está en la página de inicio de sesión
+    Cuando el usuario ingresa credenciales válidas
+      | usuario             | clave      |
+      | prueba1@gmail.com   | 12345.*    |
 
   @crearUsuario
   Esquema del escenario: Agregar un usuario correctamente
-    Dado que el usuario se encuentra en la página o módulo de usuarios
-    Cuando se ingresan los datos del usuario
-      | campos           | valores            |
-      | rol              | <rol>              |
-      | nombre           | <nombre>           |
-      | primer apellido  | <primer apellido>  |
-      | segundo apellido | <segundo apellido> |
-      | ciudad           | <ciudad>           |
-      | numero telefono  | <numero telefono>  |
-      | correo           | <correo>           |
-      | direccion        | <direccion>        |
-    Entonces debe hacer clic en el botón que dice "Crear"
-    Entonces se debe verificar que el usuario con el nombre "<nombre> <primer apellido>" fue creado correctamente
-    Entonces el usuario debería aparecer en la lista con el nombre "<nombre> <primer apellido> <segundo apellido>"
+    Cuando el usuario se encuentra en la página o módulo de usuarios y da clic en el botón de crear usuario se ingresan los datos del usuario
+      | rol | nombre | primer_apellido  | segundo_apellido | ciudad | telefono   | correo               | direccion |
+      | 1   | Nuevo  | Nuevo            | Nuevo            | 1      | 3012221212 | prueba0111@gmail.com | Mi casa   |
+    Entonces se debe verificar que el usuario fue creado correctamente
 
     Ejemplos:
-
-    Ejemplos:
-      | nombre     | primer apellido | segundo apellido | rol   | estado |
-      | Albeiro    | Ramos           | Villalba         | Admin | activo |
-      | Juan       | Pérez           | Garcia           | Admin | activo |
-      | Miguel     | Prueba          | Prueba           | Admin | activo |
+      | rol | nombre | primer_apellido  | segundo_apellido | ciudad | telefono   | correo               | direccion |
+      | 1   | Nuevo  | Nuevo            | Nuevo            | 1      | 3012221212 | prueba0111@gmail.com | Mi casa   |
