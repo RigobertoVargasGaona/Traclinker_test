@@ -14,12 +14,11 @@ Característica: Crear producto
 
   @editarProducto
   Esquema del escenario: Editar producto correctamente
-    Dado que el usuario está en la pagina o modulo de productos y hace click en el boton de editar producto
-    Cuando se ingresan los datos del producto
-      | serial |
+    Cuando que el usuario está en la pagina o modulo de productos y hace click en el boton de editar producto se ingresan los datos del producto
+      | serial      |
       | 1234567890A |
     Entonces se deberia ver el producto en la lista con el nuevo serial editado
 
     Ejemplos:
-      | serial |
+      | serial      |
       | 1234567890A |
