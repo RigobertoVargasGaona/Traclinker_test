@@ -1,42 +1,37 @@
 package co.com.test.stepsdefinitions;
 
-import cucumber.api.DataTable;
-import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import cucumber.api.java.es.Cuando;
+import cucumber.api.java.es.Dado;
+import cucumber.api.java.es.Entonces;
+import org.example.models.CrearProductoModelo;
+import org.example.questions.ValidacionProductoCreado;
+import org.example.tasks.CrearProducto;
+
+import java.util.List;
+import java.util.Map;
+
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class crearProductoStepsDefinitions {
 
-
-
-    @Given("^is on the products page and clicks the Add Product button$")
-    public void isOnTheProductsPageAndClicksTheAddProductButton() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
-
-    @When("^I enter the product's data:$")
-    public void iEnterTheProductSData(DataTable arg1) {
+    @Cuando("^el usuario está en la página o módulo de productos y hace click en agregar producto se ingresan los datos del producto que se va a agregar$")
+    public void seIngresanLosDatosDelProductoQueSeVaAAgregar(List<CrearProductoModelo> datos) {
         // Write code here that turns the phrase above into concrete actions
         // For automatic transformation, change DataTable to one of
         // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
         // E,K,V must be a scalar (String, Integer, Date, enum etc).
         // Field names for YourType must match the column names in
         // your feature file (except for spaces and capitalization).
-        throw new PendingException();
+        theActorInTheSpotlight().attemptsTo(
+                CrearProducto.crearProducto(datos)
+        );
     }
 
-    @Then("^it should be verified that the product \"([^\"]*)\" was created successfully$")
-    public void itShouldBeVerifiedThatTheProductWasCreatedSuccessfully(String arg1) {
+    @Entonces("^se debe verificar que el producto se haya creado correctamente$")
+    public void seDebeVerificarQueElProductoSeHayaCreadoCorrectamente() {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
-
-    @Then("^the product should appear in the list with the other products$")
-    public void theProductShouldAppearInTheListWithTheOtherProducts() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        theActorInTheSpotlight().should(seeThat(ValidacionProductoCreado.validarProductoCreado()));
     }
 
 }
