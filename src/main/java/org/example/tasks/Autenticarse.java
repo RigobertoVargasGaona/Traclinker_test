@@ -16,7 +16,7 @@ import static org.example.userinterfaces.autenticacion.*;
 public class Autenticarse implements Task {
 
     private List<CredencialesInicioSesion> credenciales;
-        public Autenticarse(List<CredencialesInicioSesion> credenciales) {
+    public Autenticarse(List<CredencialesInicioSesion> credenciales) {
         this.credenciales = credenciales;
     }
 

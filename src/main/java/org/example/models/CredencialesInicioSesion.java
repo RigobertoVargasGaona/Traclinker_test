@@ -7,7 +7,7 @@ public class CredencialesInicioSesion {
     public String getUsuario(){
         return usuario;
     }
-    public String getClave() {
+    public String getClave(){
         return clave;
     }
 }
