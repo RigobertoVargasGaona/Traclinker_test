@@ -14,11 +14,9 @@ Característica: Crear producto
 
   @crearProducto
   Esquema del escenario: Agregar un producto correctamente
-    Dado que el usuario está en la página o módulo de productos y hace click en agregar producto
-    Cuando se ingresan los datos del producto que se va a agregar
-      | orden_de_entrada | subcategoria | marca | modelo | serial      | periodo_de_garantia |
-      | 1                | 1            | 1     |  1     | NUEVO124 |  1                  |
-
+    Cuando el usuario está en la página o módulo de productos y hace click en agregar producto se ingresan los datos del producto que se va a agregar
+      | orden_de_entrada | subcategoria | marca | modelo | serial         | periodo_de_garantia |
+      | 1                | 1            | 1     |  1     | NUEVO12121123  |  1                  |
     Entonces se debe verificar que el producto se haya creado correctamente
 
     Ejemplos:
