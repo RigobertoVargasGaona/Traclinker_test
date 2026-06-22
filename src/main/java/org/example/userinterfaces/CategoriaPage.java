@@ -18,7 +18,7 @@ public class CategoriaPage {
 
     public static final Target BTN_CREAR_CATEGORIA =
             Target.the("Botón crear categoría")
-                    .located(By.id("crearCategoria"));
+                    .located(By.id("create-button"));
 
     public static final Target INPUT_NOMBRE_CATEGORIA =
             Target.the("Input nombre categoría")
