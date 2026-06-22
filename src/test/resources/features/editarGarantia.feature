@@ -13,7 +13,7 @@ Característica: Gestión de Garantías
 
   @garantias
   Escenario: Edita una garantía existente exitosamente
-      Cuando el usuario selecciona una incidencia para editar
-      | id | estado       |
-      | 1  | Pendiente |
-    Entonces el sistema debe mostrar el mensaje Garantía registrada exitosamente
+    Cuando el usuario selecciona una incidencia para editar
+      | id | estado           |
+      | 1  | Deshabilitada       |
+    Entonces el sistema debe mostrar el mensaje ¡Garantía actualizada!
