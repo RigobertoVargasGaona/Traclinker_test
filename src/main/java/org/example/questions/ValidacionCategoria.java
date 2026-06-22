@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static org.example.userinterfaces.CategoriaPage.MENSAJE_CATEGORIA;
+import static org.example.userinterfaces.PaginaProductos.MENSAJE_DE_CONFIRMACION;
 
 public class ValidacionCategoria implements Question<Boolean> {
 
@@ -16,7 +17,7 @@ public class ValidacionCategoria implements Question<Boolean> {
             LoggerFactory.getLogger(ValidacionCategoria.class);
 
     private static final String MENSAJE_ESPERADO =
-            "Categoría creada correctamente";
+            "Categoría creada con éxito!";
 
     public static ValidacionCategoria validacionCategoria() {
         return new ValidacionCategoria();
@@ -26,16 +27,14 @@ public class ValidacionCategoria implements Question<Boolean> {
     public Boolean answeredBy(Actor actor) {
 
         try {
-
             actor.attemptsTo(
                     WaitUntil.the(MENSAJE_CATEGORIA, isVisible())
-                            .forNoMoreThan(3).seconds()
+                            .forNoMoreThan(2).seconds()
             );
 
             String texto = Text.of(MENSAJE_CATEGORIA)
                     .viewedBy(actor)
-                    .asString()
-                    .trim();
+                    .asString();
 
             logger.info("Texto obtenido: {}", texto);
 
