@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/categoria.feature",
-        glue = {"co.com.stepsdefinitions"},
+        features = "src/test/resources/features/crearCategoria.feature",
+        glue = {"co.com.test.stepsdefinitions", "org.example.utils.hooks"},
         plugin = {"pretty", "html:target/cucumber-reports"},
         snippets = SnippetType.CAMELCASE
 )
