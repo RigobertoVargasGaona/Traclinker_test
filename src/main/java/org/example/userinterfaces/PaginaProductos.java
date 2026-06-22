@@ -12,7 +12,7 @@ public class PaginaProductos extends PageObject {
             .located(By.id("products-desktop-aside-button"));
 
     public static final Target BOTON_EDITAR_PRODUCTO = Target.the("boton para editar producto")
-            .located(By.id("edit-product-QTYC3332220-button"));
+            .located(By.id("edit-product-EDITADO123-button"));
 
     public static final Target CAMPO_SERIAL_EN_LA_TABLA = Target.the("celda de la tabla productos donde esta el serial")
             .located(By.id("product_serial-cell"));
