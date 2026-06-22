@@ -23,8 +23,10 @@ public class ValidacionProductoEditado implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         try {
-            WaitUntil.the(MENSAJE_DE_CONFIRMACION, isVisible())
-                    .forNoMoreThan(2).seconds();
+            actor.attemptsTo(
+                    WaitUntil.the(MENSAJE_DE_CONFIRMACION, isVisible())
+                            .forNoMoreThan(2).seconds()
+            );
             String texto = Text.of(MENSAJE_DE_CONFIRMACION).viewedBy(actor).asString().trim();
             logger.info("Texto obtenido: {}", texto);
             return MENSAJE_ESPERADO.equalsIgnoreCase(texto);
