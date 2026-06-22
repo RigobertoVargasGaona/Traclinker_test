@@ -9,8 +9,8 @@ Característica: Gestión de Garantías
   Antecedentes:
     Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
-      | usuario           | clave |
-      | prueba1@gmail.com | 12345.*|
+      | usuario             | clave |
+      | juanesyt@gmail.com  | 12345 |
 
   @garantias
   Escenario: Registrar una nueva garantía exitosamente
