@@ -14,8 +14,7 @@ Característica: Gestión de Garantías
 
   @garantias
   Escenario: Registrar una nueva garantía exitosamente
-    Dado que el usuario está en el módulo de garantías
-    Cuando el usuario selecciona la opción "Nueva Garantía"
+    Cuando el usuario selecciona la opción Nueva Garantía
       | serial| cliente    | telefono   | direccion| descripcion| adjuntos| ciudad|
       |QTYS2468135|Pepito Perez| 3008765432| Calle 50 #10-25 norte| Problema con la impresión | c:/mvkjhsdfksl/jhhfkdsjlfh | Cali |
-    Entonces el sistema debe mostrar el mensaje "Garantía registrada exitosamente"
+    Entonces el sistema debe mostrar el mensaje Garantia registrada con éxito
