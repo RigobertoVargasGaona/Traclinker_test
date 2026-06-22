@@ -4,11 +4,14 @@ import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class PaginaUsuarios {
-    public static  final Target BOTON_MODULO_USUARIOS = Target.the("boton para ir al modulo de productos")
+    public static  final Target BOTON_MODULO_USUARIOS = Target.the("boton para ir al modulo de usuarios")
             .located(By.id("users-desktop-aside-button"));
 
-    public static final Target BOTON_CREAR_USUARIO = Target.the("Boton para crear producto")
+    public static final Target BOTON_CREAR_USUARIO = Target.the("Boton para crear usuario")
             .located(By.id("create-button"));
+
+    public static final Target BOTON_PARA_EDITAR_USUARIO = Target.the("boton para editar usuario")
+        .located(By.id("edit-user-1-button"));
 
     public static final Target MENU_ROLES = Target.the("menu de roles")
             .located(By.id("roles-menu"));
