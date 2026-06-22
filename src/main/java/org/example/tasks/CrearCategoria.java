@@ -9,6 +9,7 @@ import org.example.models.CategoriaData;
 import org.example.userinterfaces.CategoriaPage;
 
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class CrearCategoria implements Task {
 
@@ -24,6 +25,9 @@ public class CrearCategoria implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
+        String suffix =
+                System.currentTimeMillis() + String.format("%03d", ThreadLocalRandom.current().nextInt(1000));
+        String nombreUnico = datos.get(0).getNombreCategoria() + suffix;
 
         actor.attemptsTo(
                 Click.on(CategoriaPage.BOTON_CATEGORIAS),
@@ -31,11 +35,11 @@ public class CrearCategoria implements Task {
                 Click.on(CategoriaPage.BOTON_CREAR_CATEGORIA),
 
                 Click.on(CategoriaPage.INPUT_NOMBRE_CATEGORIA),
-                Enter.theValue(datos.get(0).getNombreCategoria())
+                Enter.theValue(nombreUnico)
                         .into(CategoriaPage.INPUT_NOMBRE_CATEGORIA),
 
                 Click.on(CategoriaPage.INPUT_DESCRIPCION_CATEGORIA),
-                Enter.theValue(datos.get(0).getNombreCategoria())
+                Enter.theValue(nombreUnico)
                         .into(CategoriaPage.INPUT_DESCRIPCION_CATEGORIA),
 
                 Click.on(CategoriaPage.BTN_GUARDAR_CATEGORIA)

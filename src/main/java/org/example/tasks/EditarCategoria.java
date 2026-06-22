@@ -9,6 +9,7 @@ import org.example.models.EditarCategoriaData;
 import org.example.userinterfaces.CategoriaPage;
 
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class EditarCategoria implements Task {
     private List<EditarCategoriaData> datos;
@@ -23,6 +24,9 @@ public class EditarCategoria implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
+        String suffix =
+                System.currentTimeMillis() + String.format("%03d", ThreadLocalRandom.current().nextInt(1000));
+        String nombreUnico = datos.get(0).getNombreCategoria() + suffix;
 
         actor.attemptsTo(
                 Click.on(CategoriaPage.BOTON_CATEGORIAS),
@@ -30,7 +34,7 @@ public class EditarCategoria implements Task {
                 Click.on(CategoriaPage.BOTON_EDITAR_CATEGORIA),
 
                 Click.on(CategoriaPage.INPUT_EDITAR_NOMBRE_CATEGORIA),
-                Enter.theValue(datos.get(0).getNombreCategoria())
+                Enter.theValue(nombreUnico)
                         .into(CategoriaPage.INPUT_EDITAR_NOMBRE_CATEGORIA),
 
                 Click.on(CategoriaPage.BTN_GUARDAR_CATEGORIA)

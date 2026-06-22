@@ -10,6 +10,7 @@ import org.example.models.CredencialesCrearSubcategoria;
 import org.example.userinterfaces.crearSubcategorias;
 
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class CrearSubcategoria implements Task{
 
@@ -26,13 +27,17 @@ public class CrearSubcategoria implements Task{
 
     @Override
     public <T extends Actor> void performAs(T actor) {
+        String suffix =
+                System.currentTimeMillis() + String.format("%03d", ThreadLocalRandom.current().nextInt(1000));
+        String nombreUnico = credenciales.get(0).getNombre() + suffix;
+
         actor.attemptsTo(
                 Click.on(crearSubcategorias.BTN_SUBCATEGORIA),
                 Click.on(crearSubcategorias.BTN_NUEVA_SUBCATEGORIA),
                 Click.on(crearSubcategorias.SELECT_CATEGORIA),
                 Click.on(crearSubcategorias.OPCION_SELECT_CATEGORIA),
                 Click.on(crearSubcategorias.INPUT_NOMBRE),
-                Enter.theValue(credenciales.get(0).getNombre())
+                Enter.theValue(nombreUnico)
                         .into(crearSubcategorias.INPUT_NOMBRE),
                 Click.on(crearSubcategorias.BTN_CREAR)
         );
