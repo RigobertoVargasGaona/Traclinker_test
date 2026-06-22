@@ -5,27 +5,38 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import org.example.models.CategoriaData;
 import org.example.userinterfaces.CategoriaPage;
+
+import java.util.List;
 
 public class CrearCategoria implements Task {
 
-    private String nombreCategoria;
+    private List<CategoriaData> datos;
 
-    public CrearCategoria(String nombreCategoria) {
-        this.nombreCategoria = nombreCategoria;
+    public CrearCategoria(List<CategoriaData> datos) {
+        this.datos = datos;
     }
 
-    public static CrearCategoria conNombre(String nombreCategoria) {
-        return Tasks.instrumented(CrearCategoria.class, nombreCategoria);
+    public static CrearCategoria crearCategoria(List<CategoriaData> datos) {
+        return new CrearCategoria(datos);
     }
 
     @Override
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
+                Click.on(CategoriaPage.BOTON_CATEGORIAS),
 
-                Enter.theValue(nombreCategoria)
+                Click.on(CategoriaPage.BOTON_CREAR_CATEGORIA),
+
+                Click.on(CategoriaPage.INPUT_NOMBRE_CATEGORIA),
+                Enter.theValue(datos.get(0).getNombreCategoria())
                         .into(CategoriaPage.INPUT_NOMBRE_CATEGORIA),
+
+                Click.on(CategoriaPage.INPUT_DESCRIPCION_CATEGORIA),
+                Enter.theValue(datos.get(0).getNombreCategoria())
+                        .into(CategoriaPage.INPUT_DESCRIPCION_CATEGORIA),
 
                 Click.on(CategoriaPage.BTN_GUARDAR_CATEGORIA)
 
