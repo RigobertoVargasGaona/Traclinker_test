@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.19/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">AutomatizacionFacebook</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="7f01514a9e3dc017193b55f034b4a5d931e7c602049e4e8a0e41bc737f10b40a.html">Gesti&oacute;n De Garant&iacute;as</a></span>
+                > <span class="truncate-60"><a
+                    href="07032f2db799a09c6af788862fcf66b67898adccd03cb88c9b2e23ea271cfe79.html">Registrar una nueva garant&iacute;a exitosamente </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-06-2026 14:02</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Gestión De Garantías </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario autorizado del sistema Traclinker<br />
+quiero gestionar las garantías de los equipos y contratos<br />
+para poder registrar, consultar y hacer seguimiento de las garantías vigentes
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="d45c09f41443ce9cdbe58152652b8cde0159d3c289341b61fd916141cb678eb4.html">Garantias
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Registrar una nueva garant&iacute;a exitosamente
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: invalid session id: session deleted as the browser has closed the connection</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>org.example.questions.ValidacionGarantiaCreada.answeredBy(ValidacionGarantiaCreada.java:26)<br />org.example.questions.ValidacionGarantiaCreada.answeredBy(ValidacionGarantiaCreada.java:14)<br />co.com.test.stepsdefinitions.crearGarantiaStepsDefinitions.elSistemaDebeMostrarElMensajeGarantiaRegistradaConÉxito(crearGarantiaStepsDefinitions.java:27)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="81966c7da81b836e9ae8e29d0a49b6a22746536209eecff629efb34e208a73c1.png" title=" Dado que el usuario est&aacute; en la p&aacute;gina de inicio de sesi&oacute;n" width="1584"/>
+                <img src="81966c7da81b836e9ae8e29d0a49b6a22746536209eecff629efb34e208a73c1.png" title=" Usuario abrir pagina" width="1584"/>
+                <img src="81966c7da81b836e9ae8e29d0a49b6a22746536209eecff629efb34e208a73c1.png" title=" usuario opens the Inicio" width="1584"/>
+                <img src="81966c7da81b836e9ae8e29d0a49b6a22746536209eecff629efb34e208a73c1.png" title=" Usuario abrir pagina (completed)" width="1584"/>
+                <img src="81966c7da81b836e9ae8e29d0a49b6a22746536209eecff629efb34e208a73c1.png" title=" Dado que el usuario est&aacute; en la p&aacute;gina de inicio de sesi&oacute;n (completed)" width="1584"/>
+                <img src="0c5a0766dc3f7300cdcc3b6095e1fb1b811289f9ff6d887c20ab09006c0a0b5b.png" title=" Cuando el usuario ingresa credenciales v&aacute;lidas
+| usuario | clave |
+| juanesyt@gmail.com | 12345 |" width="1584"/>
+                <img src="0c5a0766dc3f7300cdcc3b6095e1fb1b811289f9ff6d887c20ab09006c0a0b5b.png" title=" Usuario autenticarse" width="1584"/>
+                <img src="0c5a0766dc3f7300cdcc3b6095e1fb1b811289f9ff6d887c20ab09006c0a0b5b.png" title=" usuario clicks on campo usuario" width="1584"/>
+                <img src="615a743a85c8cc58c049372f853d40c5e7a387b3090d00bbbb4643d57ea74096.png" title=" usuario enters 'juanesyt@gmail.com' into campo usuario" width="1584"/>
+                <img src="8ff0d88e7a3913f3b1233e9884756b7d7d13779ee113aa0bb3fee8c313468959.png" title=" usuario clicks on campo clave" width="1584"/>
+                <img src="c94f91d15253f0df2f59fb0c0d94f726954dd44eea80f97f5cdbb8b59f7ad93e.png" title=" usuario enters '12345' into campo clave" width="1584"/>
+                <img src="e6a2cfc182caaa0ad5cc23a4b782e9773aaa93c64c79f4efdaab5d90fd568a90.png" title=" usuario clicks on bot&oacute;n iniciar sesi&oacute;n" width="1584"/>
+                <img src="e6a2cfc182caaa0ad5cc23a4b782e9773aaa93c64c79f4efdaab5d90fd568a90.png" title=" Usuario autenticarse (completed)" width="1584"/>
+                <img src="e6a2cfc182caaa0ad5cc23a4b782e9773aaa93c64c79f4efdaab5d90fd568a90.png" title=" Cuando el usuario ingresa credenciales v&aacute;lidas
+| usuario | clave |
+| juanesyt@gmail.com | 12345 | (completed)" width="1584"/>
+                <img src="67d0310e260354e1f5b217fa35ee7420fd8b25b3c222fb8eee09d08b624a51b1.png" title=" Cuando el usuario selecciona la opci&oacute;n Nueva Garant&iacute;a
+| serial | cliente | telefono | direccion | descripcion | adjuntos | ciudad |
+| QTYS2468135 | Pepito Perez | 3008765432 | Calle 50 #10-25 norte | Problema con la impresi&oacute;n | c:/mvkjhsdfksl/jhhfkdsjlfh | Cali |" width="1584"/>
+                <img src="67d0310e260354e1f5b217fa35ee7420fd8b25b3c222fb8eee09d08b624a51b1.png" title=" Usuario crear garantia" width="1584"/>
+                <img src="67d0310e260354e1f5b217fa35ee7420fd8b25b3c222fb8eee09d08b624a51b1.png" title=" usuario clicks on boton para ir al modulo de productos" width="1584"/>
+                <img src="c3c9c6324bfbc2559942774a9fc4548da024651380a6c3cd6d7c036ab3ce79e5.png" title=" usuario clicks on Boton para crear producto" width="1584"/>
+                <img src="e4ffb73b8bdb150fa28a40d9c28087ed1edca926a7ddbac2457e57f02a5052f2.png" title=" usuario clicks on menu de ordenes de entrada" width="1584"/>
+                <img src="cf03d1f18abd6bc4e15bbe13e0701094d8ef1ff9793c98a1c169990f4714ef89.png" title=" usuario clicks on opcion dentro del menu de ordenes de entrada" width="1584"/>
+                <img src="5a9b1d62488d40ede58be07b597ef2d9a1a38aff4e2531aee39c4689307691dd.png" title=" usuario clicks on menu de subcategorias" width="1584"/>
+                <img src="a18ddd831cfdd161eca2426972067bb970314b7a6663de07672a1bb6221fdabe.png" title=" usuario clicks on opcion dentro del menu de subcategorias" width="1584"/>
+                <img src="1496ae5ca6dda8d7bf297b2ca9dcfb13bbe7e5e8bffd9e8435ee2fc9182af568.png" title=" usuario clicks on menu de marcas" width="1584"/>
+                <img src="84095c0133cfd51b0a2c242f4efd6285e2cccd49e9f730ad6f78c1dbe1651143.png" title=" usuario clicks on opcion dentro del menu de marcas" width="1584"/>
+                <img src="edbffbaba3cc2fc7a31886738fe8e454c03216608168a95a9018c9e85c16ea8b.png" title=" usuario clicks on menu de modelos" width="1584"/>
+                <img src="b494839be38fad37f19464e1c0934a8bf456f75d41e1464183b2dceb4236c1ad.png" title=" usuario clicks on opcion dentro del menu de modelos" width="1584"/>
+                <img src="65f12760e81dc2cbafcf5e14c4c112f6d0fa2888b75686469efb306c87ecf12a.png" title=" usuario clicks on campo de seriales que sale en el formulario de agregar producto" width="1584"/>
+                <img src="8b68a41a88423274eafa5c7daacf5d8e838be64c6604c449633ecefb100daf6b.png" title=" usuario enters 'QTYS24681351782154944885236' then hits [ENTER] into campo de seriales que sale en el formulario de agregar producto" width="1584"/>
+                <img src="9d8f878eb107a8f9cc6697b15ee402b0f9cb44cc0465ef68f8c5b9b2e6a9ddd3.png" title=" usuario clicks on menu de tiempos de garantia" width="1584"/>
+                <img src="9e4b002726de348871c31969de9996974b96d2d2d6fb405849f20e7476f5da3e.png" title=" usuario clicks on opcion dentro del menu de tiempos de garantia" width="1584"/>
+                <img src="4f912ff9db07f0209e3a988552d96c878f17ed08c60c22b87460e7157cbf6892.png" title=" usuario clicks on boton para confirmar" width="1584"/>
+                <img src="c3b5713806dc15262f5ac79ac5df30e541b82e488ebc193d04a6cdbe00338da0.png" title=" usuario clicks on boton para volver a la pagina despues de confirmar" width="1584"/>
+                <img src="b4efd7be0b6966d97879731dca27353b5f79451fcbae462adeac666a16d2fed4.png" title=" usuario clicks on Boton para ingreso al modulo de garant&iacute;as" width="1584"/>
+                <img src="c030a9199d6ca78a05d9f4476c9c11cd1a30cc8f00f303c521585cdee70b3fa3.png" title=" usuario clicks on Boton para agregar garantias" width="1584"/>
+                <img src="85d89c571e3b098720ce38acc429d7b1d63478ad77ffd0e312aa8e508dbe13c7.png" title=" usuario clicks on Campo serial de producto" width="1584"/>
+                <img src="0d077d29c7b5d1f105959810d62204d4790593042a78aefc90ac44cd660b43a8.png" title=" usuario enters 'QTYS24681351782154944885236' into Campo serial de producto" width="1584"/>
+                <img src="f1999895e222fd68aec0ae39f9021515ab84e8fc6ae032ed793324a499d224ce.png" title=" usuario clicks on Campo nombre de cliente" width="1584"/>
+                <img src="1e72bfdd8307c0c4f6a355b452220078219975f26a1f43f5285d1f5b6077104e.png" title=" usuario enters 'Pepito Perez1782154944885236' into Campo nombre de cliente" width="1584"/>
+                <img src="9d937038aac72f50d3f57510841a8b55ae14e8e932bccf890567d6d8ec103973.png" title=" usuario clicks on Campo de tel&eacute;fono" width="1584"/>
+                <img src="ebb2736068c20e7ab82575ea7c503b1794a73239e7b8982603a0b370ae4c411f.png" title=" usuario enters '30087654321782154944885236' into Campo de tel&eacute;fono" width="1584"/>
+                <img src="4bc5b846943e3c48adb8fe6726caf6b15dca9835d04330f6c749993d0416f427.png" title=" usuario clicks on Campo de DIRECCION" width="1584"/>
+                <img src="f3ba62833698327ca33979b423448547b3d71c1b9a7b9f11c5cc993885bbee92.png" title=" usuario enters 'Calle 50 #10-25 norte' into Campo de DIRECCION" width="1584"/>
+                <img src="6897806bace032bf8464d6773423358961fe8f2cc2f8ce69b756bc11d4573d33.png" title=" usuario clicks on Campo de nombre de la cuidad" width="1584"/>
+                <img src="96f304282570d2100de3b027576dbc67a466dd59bc9752ddbeab0d8419277f34.png" title=" usuario clicks on Seleccionar ciudad Cali" width="1584"/>
+                <img src="3158c37c5ad2c35cbaa71e2ec4071761a51e1f69de21bf7301bf92a5997cf921.png" title=" usuario clicks on Campo de la descripci&oacute;n" width="1584"/>
+                <img src="faf75f4b9a5613cc2f4ee1a3b5499d527d4fbb37766982dc82263d6a4cfa6ec8.png" title=" usuario enters 'Problema con la impresi&oacute;n' into Campo de la descripci&oacute;n" width="1584"/>
+                <img src="56a38df1f3c8dd494a48c232e14a46c10f1c902564404356d5d0ef9c50955e6c.png" title=" usuario clicks on Link de campetadas de datos adjuntos" width="1584"/>
+                <img src="554758cade06d7a506f0a1a5008e40b439c6ced696ccecdf7e3ad51b6b1ebd1f.png" title=" usuario enters 'c:/mvkjhsdfksl/jhhfkdsjlfh' into Link de campetadas de datos adjuntos" width="1584"/>
+                <img src="5e82140e95b8cecb4918741f112b3ebb288529f1d2b36a6d2cff2a3e7c9644a9.png" title=" usuario clicks on Boton para crear garant&iacute;a" width="1584"/>
+                <img src="5e82140e95b8cecb4918741f112b3ebb288529f1d2b36a6d2cff2a3e7c9644a9.png" title=" Usuario crear garantia (completed)" width="1584"/>
+                <img src="5e82140e95b8cecb4918741f112b3ebb288529f1d2b36a6d2cff2a3e7c9644a9.png" title=" Cuando el usuario selecciona la opci&oacute;n Nueva Garant&iacute;a
+| serial | cliente | telefono | direccion | descripcion | adjuntos | ciudad |
+| QTYS2468135 | Pepito Perez | 3008765432 | Calle 50 #10-25 norte | Problema con la impresi&oacute;n | c:/mvkjhsdfksl/jhhfkdsjlfh | Cali | (completed): <span class='error-color'>ERROR</span>" width="1584"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.1.1</span>
+</div>
+</body>
+</html>
