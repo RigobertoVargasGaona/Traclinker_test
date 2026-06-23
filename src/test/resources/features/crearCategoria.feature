@@ -4,25 +4,18 @@
 
 Característica: Gestión de categorías
 
-Antecedentes:
-Dado que el usuario está autenticado en el sistema
-Cuando el usuario ingresa credenciales válidas
-| usuario              | clave        |
-| juanesyt70@gmail.com | 6zAMhs5fARnE |
+  Antecedentes:
+    Dado que el usuario está en la página de inicio de sesión
+    Cuando el usuario ingresa credenciales válidas
+      | usuario             | clave |
+      | juanesyt@gmail.com  | 12345 |
+  @crearCategoria
+  Esquema del escenario: Agregar una categoría correctamente
+  Cuando el usuario está en el módulo de categorías y hace clic en crear categoría y se ingresan los datos de la categoría
+  | nombreCategoria |
+  | 12345       |
+  Entonces el sistema confirma que la categoría fue creada correctamente
 
-@crearCategoria
-Esquema del escenario: Agregar una categoría correctamente
-
-Dado que el usuario está en el módulo de categorías y hace clic en crear categoría
-
-Cuando se ingresan los datos de la categoría
-| campos             | valores      |
-| nombre categoría   | <categoria>  |
-
-Entonces el sistema confirma que la categoría fue creada correctamente
-
-Y la categoría debería aparecer en la lista junto con las demás categorías
-
-Ejemplos:
-| categoria   |
-| Tecnología  |
+  Ejemplos:
+  | categoria   |
+  | Avionessss  |

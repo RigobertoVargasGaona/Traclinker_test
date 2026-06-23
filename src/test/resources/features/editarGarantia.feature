@@ -8,12 +8,12 @@ Característica: Gestión de Garantías
   Antecedentes:
     Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
-      | usuario           | clave |
-      | prueba1@gmail.com | 12345.*|
+      | usuario             | clave |
+      | juanesyt@gmail.com  | 12345 |
 
   @garantias
   Escenario: Edita una garantía existente exitosamente
-      Cuando el usuario selecciona una incidencia para editar
-      | id | estado       |
-      | 1  | Pendiente |
-    Entonces el sistema debe mostrar el mensaje Garantía registrada exitosamente
+    Cuando el usuario selecciona una incidencia para editar
+      | id | estado           |
+      | 1  | Deshabilitada       |
+    Entonces el sistema debe mostrar el mensaje ¡Garantía actualizada!

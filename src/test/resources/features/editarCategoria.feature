@@ -4,23 +4,18 @@
 Característica: Editar categorías
 
   Antecedentes:
-    Dado que el usuario está autenticado en el sistema
+    Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
-      | usuario              | clave        |
-      | juanesyt70@gmail.com | 6zAMhs5fARnE |
+      | usuario             | clave |
+      | juanesyt@gmail.com  | 12345 |
 
   @editarCategoria
   Esquema del escenario: Editar una categoría correctamente
+    Cuando el usuario está en el módulo de categorías y selecciona una categoría para editar y se modifican los datos de la categoría
+      | nombreCategoría   |
+      | EDITADA22412      |
 
-    Dado que el usuario está en el módulo de categorías y selecciona una categoría para editar
-
-    Cuando se modifican los datos de la categoría
-      | campos             | valores               |
-      | nombre categoría   | <nuevoNombreCategoria> |
-
-    Entonces el sistema confirma que la categoría fue editada correctamente
-
-    Y la categoría actualizada debería aparecer en la lista de categorías
+    Entonces el sistema confirma que la categoría fue editada correctamente$
 
     Ejemplos:
       | nuevoNombreCategoria |

@@ -9,13 +9,12 @@ Característica: Gestión de Garantías
   Antecedentes:
     Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
-      | usuario           | clave |
-      | prueba1@gmail.com | 12345.*|
+      | usuario             | clave |
+      | juanesyt@gmail.com  | 12345 |
 
   @garantias
   Escenario: Registrar una nueva garantía exitosamente
-    Dado que el usuario está en el módulo de garantías
-    Cuando el usuario selecciona la opción "Nueva Garantía"
+    Cuando el usuario selecciona la opción Nueva Garantía
       | serial| cliente    | telefono   | direccion| descripcion| adjuntos| ciudad|
       |QTYS2468135|Pepito Perez| 3008765432| Calle 50 #10-25 norte| Problema con la impresión | c:/mvkjhsdfksl/jhhfkdsjlfh | Cali |
-    Entonces el sistema debe mostrar el mensaje "Garantía registrada exitosamente"
+    Entonces el sistema debe mostrar el mensaje Garantia registrada con éxito

@@ -8,6 +8,7 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 import org.example.models.EditarProductoModelo;
 
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static org.example.userinterfaces.PaginaProductos.*;
@@ -26,6 +27,10 @@ public class EditarProducto implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
+        String suffix =
+                System.currentTimeMillis() + String.format("%03d", ThreadLocalRandom.current().nextInt(1000));
+        String serialUnico = datos.get(0).getSerial() + suffix;
+
         actor.attemptsTo(
             WaitUntil.the(BOTON_MODULO_PRODUCTOS, isVisible())
                     .forNoMoreThan(1).seconds(),
@@ -36,7 +41,7 @@ public class EditarProducto implements Task {
             Click.on(BOTON_EDITAR_PRODUCTO),
 
             Click.on(CAMPO_SERIAL),
-            Enter.theValue(datos.get(0).getSerial()).into(CAMPO_SERIAL),
+            Enter.theValue(serialUnico).into(CAMPO_SERIAL),
 
             Click.on(BOTON_CONFIRMAR)
         );

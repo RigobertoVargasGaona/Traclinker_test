@@ -1,0 +1,52 @@
+<html lang="en" class="dark"><head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/Logo.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracklinker</title>
+    <script type="module" crossorigin="" src="/assets/index-CJz6vKl6.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-DuzrLMoV.css">
+  </head>
+  <body>
+    <div id="root"><div class="w-screen h-screen dark:bg-[#0a0a0a]"><section class="w-screen h-screen flex items-center justify-center bg-[#FBF9FC]
+      dark:bg-black"><section class="w-full h-full flex items-center justify-center"><div class="w-full flex flex-col items-center px-4 py-8"><img alt="" class="w-[150px] h-[150px] dark:invert dark:brightness-0" src="/assets/logo-BI6e5sl_.svg"><form class="w-[360px] flex flex-col gap-2 
+          sm:w-[440px]
+          dark:text-white"><div class="relative flex w-full border pr-2 rounded-2xl bg-[#FBF9FC] overflow-hidden transition-shadow duration-200
+      focus-within:shadow-[0_0_3px_2px_#e5e7eb]
+      dark:bg-black dark:border-[#1e1e20cb] dark:focus-within:shadow-[0_0_3px_3px_#28282b]
+      shadow-sm
+      "><input required="" placeholder="Correo" id="email" autocomplete="email" class="
+          w-full h-16 pt-7 px-4 pb-2 outline-none
+          bg-transparent rounded-xl
+          transition-all duration-200
+          dark:text-[#E4E2E5] dark:placeholder:text-[#b4aab4]
+        " type="text" value="juanesyt7@gmail.com" name="email"><label for="email" class="
+          absolute left-3.5 top-5 px-0.5
+          -translate-y-1/2
+          text-xs text-[#7E777E]
+          pointer-events-none
+          transition-all duration-200
+          bg-[#FBF9FC] dark:bg-black dark:text-[#b4aab4]
+        ">Correo</label></div><div class="relative flex w-full border pr-2 rounded-2xl bg-[#FBF9FC] overflow-hidden transition-shadow duration-200
+      focus-within:shadow-[0_0_3px_2px_#e5e7eb]
+      dark:bg-black dark:border-[#1e1e20cb] dark:focus-within:shadow-[0_0_3px_3px_#28282b]
+      shadow-sm
+      "><input required="" placeholder="Contraseña" id="password" autocomplete="off" class="
+          w-full h-16 pt-7 px-4 pb-2 outline-none
+          bg-transparent rounded-xl
+          transition-all duration-200
+          dark:text-[#E4E2E5] dark:placeholder:text-[#b4aab4]
+        " type="password" value="12345" name="password"><label for="password" class="
+          absolute left-3.5 top-5 px-0.5
+          -translate-y-1/2
+          text-xs text-[#7E777E]
+          pointer-events-none
+          transition-all duration-200
+          bg-[#FBF9FC] dark:bg-black dark:text-[#b4aab4]
+        ">Contraseña</label><button class="flex items-center pr-1" type="button"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">visibility</span></button></div><section class="flex flex-col pt-5 gap-2"><button id="login-button" type="button" class="h-16 flex items-center justify-center py-3 text-sm text-white bg-blue-700 rounded-2xl transition duration-300
+        hover:bg-blue-600" data-flip-id="modal-morph-_r_0_" style="translate: none; rotate: none; scale: none;">Ingresar</button><button id="recover-password-button" type="button" class="h-16 flex items-center justify-center px-8 py-3 text-sm border rounded-2xl transition-all duration-300
+        hover:bg-[#e5e7eb9c]
+        dark:text-white dark:hover:bg-[#202022a6] dark:border-[#1e1e20cb]">Olvidaste tu contraseña?</button></section></form></div></section></section><div id="modal-root"></div></div></div>
+    <div id="modal-root"></div>
+  
+
+</body></html>

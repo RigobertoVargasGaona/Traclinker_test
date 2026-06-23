@@ -1,41 +1,29 @@
 package co.com.test.stepsdefinitions;
 
-import cucumber.api.DataTable;
-import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import cucumber.api.java.es.Cuando;
+import cucumber.api.java.es.Entonces;
+import org.example.models.EditarUsuarioModelo;
+import org.example.questions.ValidacionEditarUsuario;
+import org.example.tasks.EditarUsuario;
+
+import java.util.List;
+
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class editarUsuarioStepsDefinitions {
 
-
-    @Given("^The user is on the profile screen\\.$")
-    public void theUserIsOnTheProfileScreen() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Cuando("^el usuario se encuentra en la página o módulo de usuarios y da clic en el botón de editar usuario se ingresan los datos a editar del usuario$")
+    public void seIngresanLosDatosAEditarDelUsuario(List<EditarUsuarioModelo> datos) {
+        theActorInTheSpotlight().attemptsTo(
+                EditarUsuario.editarUsuario(datos)
+        );
     }
 
-    @When("^Enter the personal data you wish to edit\\.$")
-    public void enterThePersonalDataYouWishToEdit(DataTable arg1) {
-        // Write code here that turns the phrase above into concrete actions
-        // For automatic transformation, change DataTable to one of
-        // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-        // E,K,V must be a scalar (String, Integer, Date, enum etc).
-        // Field names for YourType must match the column names in
-        // your feature file (except for spaces and capitalization).
-        throw new PendingException();
+    @Entonces("^se debe verificar que el usuario fue editado correctamente$")
+    public void seDebeVerificarQueElUsuarioFueEditadoCorrectamente() {
+        theActorInTheSpotlight().should(seeThat(
+                ValidacionEditarUsuario.validacionEditarUsuario()
+        ));
     }
-
-    @When("^i click save$")
-    public void iClickSave() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
-
-    @Then("^It is verified that the information has been updated correctly\\.$")
-    public void itIsVerifiedThatTheInformationHasBeenUpdatedCorrectly() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
-
 }

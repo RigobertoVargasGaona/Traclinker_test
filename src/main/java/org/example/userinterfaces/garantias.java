@@ -28,6 +28,10 @@ public class garantias extends PageObject {
                 .located(By.xpath("//button[contains(@id,'cities-menu')]//span[contains(text(),'" + ciudad + "')]"));
     }
 
+    public static final Target MENSAJE_GARANTIAS =
+            Target.the("")
+                    .located(By.id("confirm-title"));
+
     public static final Target INPUT_DESCRIPCION =
             Target.the("Campo de la descripción")
                     .located(By.id("description"));
@@ -48,9 +52,9 @@ public class garantias extends PageObject {
             Target.the("Boton para crear garantía")
                     .located(By.id("confirm-button"));
 
-    public static final Target MEANSAJE_GARANTIAS =
-            Target.the("")
-                    .located(By.id(""));
+    public static final Target MENSAJE_EDITAR_GARANTIA =
+            Target.the("Mensaje de garnatía editada con exito")
+                    .located(By.id("confirm-title"));
 
     public static Target BTN_EDITAR_GARANTIA(String id) {
         return Target.the("Botón editar garantía " + id)
@@ -67,5 +71,7 @@ public class garantias extends PageObject {
             Target.the("Boton editar garantia")
                     .located(By.id("confirm-button"));
 
+    public static final Target BOTON_CONFIRMAR = Target.the("boton para confirmar")
+            .located(By.id("confirm-button"));
 
 }

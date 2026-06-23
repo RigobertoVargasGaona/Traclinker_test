@@ -12,7 +12,7 @@ public class PaginaProductos extends PageObject {
             .located(By.id("products-desktop-aside-button"));
 
     public static final Target BOTON_EDITAR_PRODUCTO = Target.the("boton para editar producto")
-            .located(By.id("edit-product-QTYC3332220-button"));
+            .located(By.id("edit-product-1-button"));
 
     public static final Target CAMPO_SERIAL_EN_LA_TABLA = Target.the("celda de la tabla productos donde esta el serial")
             .located(By.id("product_serial-cell"));
@@ -58,4 +58,7 @@ public class PaginaProductos extends PageObject {
 
     public static final Target MENSAJE_DE_CONFIRMACION = Target.the("texto de confimacion que sale en una modal")
             .located(By.id(("confirm-title")));
+
+    public static final Target BOTON_VOLVER_PAGINA = Target.the("boton para volver a la pagina despues de confirmar")
+            .located(By.xpath("//button[contains(normalize-space(), 'Volver a la página')]"));
 }

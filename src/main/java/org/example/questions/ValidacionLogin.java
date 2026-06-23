@@ -15,7 +15,7 @@ public class ValidacionLogin implements Question<Boolean> {
     private static final Logger logger =
             LoggerFactory.getLogger(ValidacionLogin.class);
 
-    private static final String MENSAJE_ESPERADO = "Bienvenido, Rigoberto";
+    private static final String MENSAJE_ESPERADO = "Bienvenido, Juan";
 
     public static ValidacionLogin validacionLogin() {
         return new ValidacionLogin();
