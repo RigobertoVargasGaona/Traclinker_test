@@ -47,4 +47,3 @@ bin/
 /.gradle/
 /node_modules/
 /.idea/libraries/
-/target/
