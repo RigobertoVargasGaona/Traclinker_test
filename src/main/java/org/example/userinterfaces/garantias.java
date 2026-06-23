@@ -71,5 +71,7 @@ public class garantias extends PageObject {
             Target.the("Boton editar garantia")
                     .located(By.id("confirm-button"));
 
+    public static final Target BOTON_CONFIRMAR = Target.the("boton para confirmar")
+            .located(By.id("confirm-button"));
 
 }

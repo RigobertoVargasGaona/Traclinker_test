@@ -58,4 +58,7 @@ public class PaginaProductos extends PageObject {
 
     public static final Target MENSAJE_DE_CONFIRMACION = Target.the("texto de confimacion que sale en una modal")
             .located(By.id(("confirm-title")));
+
+    public static final Target BOTON_VOLVER_PAGINA = Target.the("boton para volver a la pagina despues de confirmar")
+            .located(By.xpath("//button[contains(normalize-space(), 'Volver a la página')]"));
 }
