@@ -1,0 +1,293 @@
+<html lang="en" class="dark"><head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/Logo.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracklinker</title>
+    <script type="module" crossorigin="" src="/assets/index-ELefGXyy.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-D_l0Ozfx.css">
+  </head>
+  <body>
+    <div id="root"><div class="w-screen h-screen dark:bg-[#0a0a0a]"><div class="w-screen h-screen flex flex-col
+        md:grid md:grid-cols-[110px_1fr] md:grid-rows-1
+        xl:grid-cols-[260px_1fr] xl:grid-rows-1
+        "><aside class="sticky bottom-0 flex order-2 h-[80px] py-1 z-10
+      md:static md:h-full md:flex-col md:order-1 md:px-5 md:pt-5
+      xl:h-full xl:flex-col xl:row-span-2 xl:px-3 xl:pt-5 xl:order-1
+      dark:bg-black"><nav class="hidden h-full md:flex flex-col justify-between gap-1 order-1"><section class="flex flex-col"><button class="w-full h-full flex items-center justify-center py-1.5 gap-2.5 rounded-2xl transition duration-300 cursor-pointer
+        hover:bg-[#e5e7eb96] 
+        dark:text-gray-50 dark:hover:bg-[#202022]
+        xl:justify-start xl:pl-6
+        "><img alt="Avatar Icon" class="w-8 h-8" src="data:image/webp;base64,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"><div class="hidden text-center xl:block"><span class="text-[#75777E] font-medium dark:text-[#7E8088]">Edwin Quenguan</span></div></button><ul class="w-full flex gap-[3px]
+            md:flex-col
+            xl:flex-col"><li><a aria-current="page" class="active" href="/home" data-discover="true"><div id="home-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            bg-black font-medium shadow-[0px_0px_32px_-9px_#000000] text-white fill-white
+            dark:bg-white dark:text-black dark:shadow-[0px_0px_32px_-11px_#ffffff] animate-clickEffect"><span class="material-symbols-rounded 
+            fill-white animate-iconFill group-hover:scale-105 dark:fill-black" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">home</span><div class="hidden gap-1 text-center font-medium text-xs
+            
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Inicio</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/dashboard" data-discover="true"><div id="dashboard-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">space_dashboard</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Panel</span><span class="text-nowrap">De Control</span></div></div></a></li><li><a class="" href="/users" data-discover="true"><div id="users-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">groups</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Usuarios</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/products" data-discover="true"><div id="products-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">shopping_cart</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Productos</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/categories" data-discover="true"><div id="categories-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">folder_open</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Categorías</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/subcategories" data-discover="true"><div id="subcategories-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">folder_copy</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Subcategorías</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/reports" data-discover="true"><div id="reports-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">finance_mode</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Informes</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/warranties" data-discover="true"><div id="warranties-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">service_toolbox</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Garantías</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/suppliers" data-discover="true"><div id="suppliers-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">group</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Proveedores</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/output-orders" data-discover="true"><div id="outputs-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">shuffle</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Órdenes</span><span class="text-nowrap">de salida</span></div></div></a></li></ul></section><section class="order-2 md:py-3.5"><ul class="flex flex-col gap-1"><span class="text-sm text-[#75777eb7] pb-2 md:pl-1 xl:pl-3">Otros</span><li class="rounded-2xl transition-colors duration-300 text-[#75777E] font-normal
+              hover:bg-[#e5e7eb96]
+              dark:text-[#7E8088] dark:hover:bg-[#181818]"><button class="w-full"><section class="w-full h-14 flex items-center justify-center gap-2.5 py-2.5 subpixel-antialiased transition-colors duration-300 group
+                    md:pl-0
+                    xl:w-full xl:h-auto xl:justify-start xl:pl-7
+                    dark:text-[#7E8088]"><span class="material-symbols-rounded fill-none text-[#75777eb7]
+                        group-hover:text-black group-hover:[--icon-weight:500]
+                        dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">feedback</span><span class="hidden font-medium group-hover:text-black dark:group-hover:text-white 
+                        xl:block">Ayuda</span></section></button></li><li class="rounded-2xl transition-colors duration-300 text-[#75777E] font-normal
+              hover:bg-[#e5e7eb96]
+              dark:text-[#7E8088] dark:hover:bg-[#181818]"><a class="" href="/" data-discover="true"><div id="logout-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">logout</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Cerrar Sesión</span><span class="text-nowrap"></span></div></div></a></li></ul></section></nav><section class="relative w-screen flex justify-between pb-1 pl-1 pr-2
+      sm:px-2
+      md:hidden"><ul class="w-auto h-full flex px-1 gap-0.5 rounded-full shadow-[1px_1px_10px_5px_#00000014] bg-white
+        dark:bg-black dark:shadow-[1px_1px_1px_4px_#ffffff14]"><li class="py-1.5 rounded-full"><a aria-current="page" class="active" href="/home" data-discover="true"><div id="home-mobile-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            bg-black font-medium shadow-[0px_0px_32px_-9px_#000000] text-white fill-white
+            dark:bg-white dark:text-black dark:shadow-[0px_0px_32px_-11px_#ffffff] animate-clickEffect"><span class="material-symbols-rounded 
+            fill-white animate-iconFill group-hover:scale-105 dark:fill-black" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">home</span><div class="hidden gap-1 text-center font-medium text-xs
+            
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Inicio</span><span class="text-nowrap"></span></div></div></a></li><li class="py-1.5 rounded-full"><a class="" href="/users" data-discover="true"><div id="users-mobile-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">groups</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Usuarios</span><span class="text-nowrap"></span></div></div></a></li><li class="py-1.5 rounded-full"><a class="" href="/products" data-discover="true"><div id="products-mobile-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">shopping_cart</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Productos</span><span class="text-nowrap"></span></div></div></a></li><li class="py-1.5 rounded-full"><a class="" href="/reports" data-discover="true"><div id="reports-mobile-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">finance_mode</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Informes</span><span class="text-nowrap"></span></div></div></a></li></ul><button class="self-end w-auto h-16 flex flex-col items-center justify-center py-2.5 px-5 rounded-full bg-black cursor-pointer group
+        dark:bg-white"><span class="material-symbols-rounded text-white group-hover:text-white dark:text-black dark:group-hover:text-black" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">more_horiz</span></button></section></aside><main class="w-full h-full pl-1.5 pr-2 py-2 dark:bg-black overflow-y-auto order-1
+        md:order-2 md:py-4 md:max-h-full md:overflow-hidden
+        xl:order-2 xl:pb-3 xl:max-h-full"><h1 id="welcome-message" class="h-[10%] p-5 text-3xl font-medium dark:text-white
+        md:text-4xl
+        xl:text-5xl
+      ">Bienvenido, Edwin</h1><section class="h-[90%] grid grid-cols-3 p-[40px_13px_20px] gap-[20px_20px] place-items-center
+        grid-rows-3
+              sm:p-[80px_20px_150px_20px]
+              md:p-[80px_20px_150px_20px]
+              lg:grid-cols-5 lg:grid-rows-2 lg:p-[100px_100px_250px_100px]
+              xl:p-[100px_80px_180px_80px]
+              2xl:p-[140px_250px_240px_250px]
+      "><section><a class="flex flex-col h-32 w-28 place-items-center gap-2 transition duration-300
+        hover:scale-105
+        xl:h-40 xl:w-32
+        md:h-40 md:w-32
+        sm:h-36 sm:w-32" href="/users" data-discover="true"><section class="h-24 w-24 rounded-xl bg-[#eae8eb] flex items-center justify-center
+          dark:bg-[#101012]
+          sm:h-40 sm:w-32
+          md:h-32 md:w-32
+          xl:h-40 xl:w-32
+          "><span class="material-symbols-rounded w-10 h-10
+            md:w-11 md:h-11" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 40; font-size: 40px; color: rgb(117, 119, 126);">groups</span></section><span class="text-xs font-medium text-center dark:text-white
+          md:text-base
+          xl:text-base">Usuarios</span></a></section><section><a class="flex flex-col h-32 w-28 place-items-center gap-2 transition duration-300
+        hover:scale-105
+        xl:h-40 xl:w-32
+        md:h-40 md:w-32
+        sm:h-36 sm:w-32" href="/products" data-discover="true"><section class="h-24 w-24 rounded-xl bg-[#eae8eb] flex items-center justify-center
+          dark:bg-[#101012]
+          sm:h-40 sm:w-32
+          md:h-32 md:w-32
+          xl:h-40 xl:w-32
+          "><span class="material-symbols-rounded w-10 h-10
+            md:w-11 md:h-11" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 40; font-size: 40px; color: rgb(117, 119, 126);">shopping_cart</span></section><span class="text-xs font-medium text-center dark:text-white
+          md:text-base
+          xl:text-base">Productos</span></a></section><section><a class="flex flex-col h-32 w-28 place-items-center gap-2 transition duration-300
+        hover:scale-105
+        xl:h-40 xl:w-32
+        md:h-40 md:w-32
+        sm:h-36 sm:w-32" href="/categories" data-discover="true"><section class="h-24 w-24 rounded-xl bg-[#eae8eb] flex items-center justify-center
+          dark:bg-[#101012]
+          sm:h-40 sm:w-32
+          md:h-32 md:w-32
+          xl:h-40 xl:w-32
+          "><span class="material-symbols-rounded w-10 h-10
+            md:w-11 md:h-11" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 40; font-size: 40px; color: rgb(117, 119, 126);">folder_open</span></section><span class="text-xs font-medium text-center dark:text-white
+          md:text-base
+          xl:text-base">Categorias</span></a></section><section><a class="flex flex-col h-32 w-28 place-items-center gap-2 transition duration-300
+        hover:scale-105
+        xl:h-40 xl:w-32
+        md:h-40 md:w-32
+        sm:h-36 sm:w-32" href="/subcategories" data-discover="true"><section class="h-24 w-24 rounded-xl bg-[#eae8eb] flex items-center justify-center
+          dark:bg-[#101012]
+          sm:h-40 sm:w-32
+          md:h-32 md:w-32
+          xl:h-40 xl:w-32
+          "><span class="material-symbols-rounded w-10 h-10
+            md:w-11 md:h-11" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 40; font-size: 40px; color: rgb(117, 119, 126);">folder_copy</span></section><span class="text-xs font-medium text-center dark:text-white
+          md:text-base
+          xl:text-base">Subcategorias</span></a></section><section><a class="flex flex-col h-32 w-28 place-items-center gap-2 transition duration-300
+        hover:scale-105
+        xl:h-40 xl:w-32
+        md:h-40 md:w-32
+        sm:h-36 sm:w-32" href="/reports" data-discover="true"><section class="h-24 w-24 rounded-xl bg-[#eae8eb] flex items-center justify-center
+          dark:bg-[#101012]
+          sm:h-40 sm:w-32
+          md:h-32 md:w-32
+          xl:h-40 xl:w-32
+          "><span class="material-symbols-rounded w-10 h-10
+            md:w-11 md:h-11" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 40; font-size: 40px; color: rgb(117, 119, 126);">finance_mode</span></section><span class="text-xs font-medium text-center dark:text-white
+          md:text-base
+          xl:text-base">Informes</span></a></section><section><a class="flex flex-col h-32 w-28 place-items-center gap-2 transition duration-300
+        hover:scale-105
+        xl:h-40 xl:w-32
+        md:h-40 md:w-32
+        sm:h-36 sm:w-32" href="/warranties" data-discover="true"><section class="h-24 w-24 rounded-xl bg-[#eae8eb] flex items-center justify-center
+          dark:bg-[#101012]
+          sm:h-40 sm:w-32
+          md:h-32 md:w-32
+          xl:h-40 xl:w-32
+          "><span class="material-symbols-rounded w-10 h-10
+            md:w-11 md:h-11" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 40; font-size: 40px; color: rgb(117, 119, 126);">service_toolbox</span></section><span class="text-xs font-medium text-center dark:text-white
+          md:text-base
+          xl:text-base">Garantías</span></a></section><section><a class="flex flex-col h-32 w-28 place-items-center gap-2 transition duration-300
+        hover:scale-105
+        xl:h-40 xl:w-32
+        md:h-40 md:w-32
+        sm:h-36 sm:w-32" href="/suppliers" data-discover="true"><section class="h-24 w-24 rounded-xl bg-[#eae8eb] flex items-center justify-center
+          dark:bg-[#101012]
+          sm:h-40 sm:w-32
+          md:h-32 md:w-32
+          xl:h-40 xl:w-32
+          "><span class="material-symbols-rounded w-10 h-10
+            md:w-11 md:h-11" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 40; font-size: 40px; color: rgb(117, 119, 126);">group</span></section><span class="text-xs font-medium text-center dark:text-white
+          md:text-base
+          xl:text-base">Proveedores</span></a></section><section><a class="flex flex-col h-32 w-28 place-items-center gap-2 transition duration-300
+        hover:scale-105
+        xl:h-40 xl:w-32
+        md:h-40 md:w-32
+        sm:h-36 sm:w-32" href="/output-orders" data-discover="true"><section class="h-24 w-24 rounded-xl bg-[#eae8eb] flex items-center justify-center
+          dark:bg-[#101012]
+          sm:h-40 sm:w-32
+          md:h-32 md:w-32
+          xl:h-40 xl:w-32
+          "><span class="material-symbols-rounded w-10 h-10
+            md:w-11 md:h-11" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 40; font-size: 40px; color: rgb(117, 119, 126);">shuffle</span></section><span class="text-xs font-medium text-center dark:text-white
+          md:text-base
+          xl:text-base">Salidas</span></a></section><section><a class="flex flex-col h-32 w-28 place-items-center gap-2 transition duration-300
+        hover:scale-105
+        xl:h-40 xl:w-32
+        md:h-40 md:w-32
+        sm:h-36 sm:w-32" href="/transformations" data-discover="true"><section class="h-24 w-24 rounded-xl bg-[#eae8eb] flex items-center justify-center
+          dark:bg-[#101012]
+          sm:h-40 sm:w-32
+          md:h-32 md:w-32
+          xl:h-40 xl:w-32
+          "><span class="material-symbols-rounded w-10 h-10
+            md:w-11 md:h-11" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 40; font-size: 40px; color: rgb(117, 119, 126);">swap_horiz</span></section><span class="text-xs font-medium text-center dark:text-white
+          md:text-base
+          xl:text-base">Transformaciones</span></a></section></section></main></div><div id="modal-root"></div></div></div>
+    <div id="modal-root"></div>
+  
+
+</body></html>
