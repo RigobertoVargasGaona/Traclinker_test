@@ -9,9 +9,14 @@ public class garantias extends PageObject {
             Target.the("Campo serial de producto")
                     .located(By.id("serial"));
 
-    public static final Target INPUT_CLIENTE =
-            Target.the("Campo nombre de cliente")
+    public static final Target MENU_CLIENTE =
+            Target.the("Menu nombre de cliente")
                     .located(By.id("customer"));
+
+    public static final Target OPCION_MENU_CLIENTE =
+            Target.the("Opcion del menu de clientes")
+                    .located(By.id("customer-19-option"));
+
     public static final Target INPUT_TELEFONO =
             Target.the("Campo de teléfono")
                     .located(By.id("phone"));
