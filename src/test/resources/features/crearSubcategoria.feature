@@ -10,7 +10,7 @@ Característica: Crear Subcategoria
     Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
       | usuario             | clave |
-      | juanesyt@gmail.com  | 12345 |
+      | juanesyt7@gmail.com  | 12345 |
 
   @crearSubcategorias
   Esquema del escenario: Agregar una subcategoria correctamente
