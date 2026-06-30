@@ -12,7 +12,7 @@ public class PaginaProductos extends PageObject {
             .located(By.id("products-desktop-aside-button"));
 
     public static final Target BOTON_EDITAR_PRODUCTO = Target.the("boton para editar producto")
-            .located(By.id("edit-product-1-button"));
+            .located(By.id("edit-product-33-button"));
 
     public static final Target CAMPO_SERIAL_EN_LA_TABLA = Target.the("celda de la tabla productos donde esta el serial")
             .located(By.id("product_serial-cell"));
@@ -27,19 +27,19 @@ public class PaginaProductos extends PageObject {
             .located(By.id("subcategories-menu"));
 
     public static final Target OPCION_MENU_SUBCATEGORIAS = Target.the("opcion dentro del menu de subcategorias")
-            .located(By.id("subcategories-menu-1-option"));
+            .located(By.id("subcategories-menu-32-option"));
 
     public static final Target MENU_MARCAS = Target.the("menu de marcas")
             .located(By.id("brands-menu"));
 
     public static final Target OPCION_MENU_MARCAS = Target.the("opcion dentro del menu de marcas")
-            .located(By.id("brands-menu-25-option"));
+            .located(By.id("brands-menu-20-option"));
 
     public static final Target MENU_MODELOS = Target.the("menu de modelos")
             .located(By.id("models-menu"));
 
     public static final Target OPCION_MENU_MODELOS = Target.the("opcion dentro del menu de modelos")
-            .located(By.id("models-menu-23-option"));
+            .located(By.id("models-menu-28-option"));
 
     public static final Target CAMPO_SERIAL = Target.the("campo para el serial del producto")
             .located(By.id("product_serial"));

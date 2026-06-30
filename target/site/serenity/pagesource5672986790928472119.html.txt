@@ -1,0 +1,462 @@
+<html lang="en" class="dark"><head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/Logo.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracklinker</title>
+    <script type="module" crossorigin="" src="/assets/index-ELefGXyy.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-D_l0Ozfx.css">
+  </head>
+  <body>
+    <div id="root"><div class="w-screen h-screen dark:bg-[#0a0a0a]"><div class="w-screen h-screen flex flex-col
+        md:grid md:grid-cols-[110px_1fr] md:grid-rows-1
+        xl:grid-cols-[260px_1fr] xl:grid-rows-1
+        "><aside class="sticky bottom-0 flex order-2 h-[80px] py-1 z-10
+      md:static md:h-full md:flex-col md:order-1 md:px-5 md:pt-5
+      xl:h-full xl:flex-col xl:row-span-2 xl:px-3 xl:pt-5 xl:order-1
+      dark:bg-black"><nav class="hidden h-full md:flex flex-col justify-between gap-1 order-1"><section class="flex flex-col"><button class="w-full h-full flex items-center justify-center py-1.5 gap-2.5 rounded-2xl transition duration-300 cursor-pointer
+        hover:bg-[#e5e7eb96] 
+        dark:text-gray-50 dark:hover:bg-[#202022]
+        xl:justify-start xl:pl-6
+        "><img alt="Avatar Icon" class="w-8 h-8" src="data:image/webp;base64,UklGRm4IAABXRUJQVlA4WAoAAAAQAAAAMQAAMQAAQUxQSC8BAAABgJvtf9PoLyjtiyWPKgZgEKaA0tlD0GoDlwzADI69prhY5SP9LyP9/gtEhAO3kRQpWeY96K430LAjnWSmOlp7rEye6BH5quJJaWv+x9qWk1h5cWFuPnjQjxtz4U60fmRHH9eRG2G6rdnZepuGDgSzJ/byaRYMcl007GlTXA+Nm5697Tf/D0HRM8C++G9nOGsYYjP752LpE4N8Sv9+/1uGuY1+s65x1OvfP8lHBvp4QUTKMFSjiOIbLDcx0eQDy8eERiWDLUfaorE6qdHUScZwM4PHVHiqI56jxWMlkFiROETiQrnAL0fi1ynxD5D4lwn8kyWqhURFEqh6ApVVonrDO8Rziu9C81Cg0wl0U4GOLZAKBJIHPt3gE5RnSpsOp7RprMjXkU5yU52sPbkmQQIAVlA4IBgHAACwIgCdASoyADIAAAAAJbAC/cUFXHcF9E/F38gPlFo784+337B/2TMJuT/8H+VX+S94H9V9jPmAfod/ivyW7VfmA/kn9X/6P9y95H9APYh6AH8w/r/o3exb6CH7Delx+0nwUfsx+43uTf1H/nfn/ftf2P8IP2k7LXvH7D/sfyd3lvtJ9a/Gn9p9M3/SPxj/cf/e5zR8v/tv5K/s7rnH+J/I3mmYpP8H9yXxs/0v5Aev35n/2nuBfxj+Sf3v+4fuH/g//d9N3sS9DL9PztGWibHBaPPJc6tLQ2RkQhyEv/JOpjhdEwMA4/LtMDVppQSYshyxtunNgfRV/pVuTP3KMwv0CWMLUGJ16kvijgJwIjKzD+DmlaM2GznJJtrCbl0AAP7//qcI2exNpa9h/xi6eu/98j8d3cJkYFmvG6A1GtfZ8lXnPFGLcKw0/sUp6umeFVQ9muWPqS8gLYGaC8VRSDDAhJx0CxV69OcdkVe1jm8XK0hCufUIXsYvCzC5xvNY5b4WyMQ2C/oRJdacHJ42R4Nh1yA5QpqP1l37j/9vvtIrozOj+vKyQF3TCA549h+zKKRpnQLXHV8puSPYbmJ6YpGYiOwIq/T57EFeEQ93RVpIvVo0ln54ZZu8MObYHhgM7MqTEMUMadr/swoFyI2w1jzv/0rM6285TeU3skUosuFsw9Svfwf/5D+uX5YR+JcB4a0x+FjmiTP47P3nwyBlwpD5RSOP/6/JnB6G5DO/fGlEC7QTphFtTo7w8SccnBQbBH4Ef0citw8vhe9X6zZhtIRmuVeCJFdoUaFZp+Lsjyxz+Q+wx8e9FyJRn7FWZEXpoVcW9CTkV/XlgEjeeEUimhsDfws3BDqPoWCXHnxyc1OhPwVmBgktHCYRc/68dUpz1evSKOp9D/Y7DpieCbRcbvVd+DpwY/rlQAwNqOMBhPt+JbG5F4eCP7r+uqu3EgsFEFk23xpUy6X///UwHOZp9pL2QySVZDw8L1zZ36MZz2dqruvh8S3rnrPq/63eY9QnvrjGYf/8nV//NF0NdpGhAhZ9QZJT+DyS6D7iy5A0AF/RhQc3zTzlH7Iyh3A/juw544NxRSPbm3FicphJUQX2BZuAPA42ZLbQgy4u4ZIh7VzDKAmycS6A9pHGxiQ0n6FHFOTlRqXGrh0o0UXKUDvvJDTidwyitT5Y2Q6inp7ZaSuvwdcFdqT7EPskVirP0IEeiE9SHAP0GmPpGRQkuLEEvrQvx7hQA//Z7aNqkwX5yqWSzOgTr/r8yNFVzz62/g9K9yJuDFjJTh0pKyjMMVrYRzBQnnJeXcX9DOIJR2EUG9D4b9btKE4SJO722G6Alvk3AP/BlnMQzcOPWj7ELM5z9sf+Vu52JuTyFZz5XpThEs++01NH8M7Ru9LOR23e9T8QSPGERvKKMBOsvf4ZFEa7l8WhB85IRwPRt9O90mQR+Cwru06euhkqI9esh9fGLhtVk1uHn27aC2dwRMWZpnXD5/Ba1FbPPx1E7fsl1A9iKhX37spxnsOlzezSR1swOlLI6f9056Ze3eo5bF5WpPqZfFAzBqlyO/oH1IDtgmJbYz5idvkSTNnEDF1f7UeLkSXNuedpqenRB+ICnN0HrxI2+cQiCwMFYORak7uER5E2q9Gf6mSNxn0ZM0DAZ77xU8weGU1RwQvStvKz+qdvq3QjbcWI8qEujiNgMCOruVQWsSJw5NH/hiyEG/SLXTQ0Yuqs7iZJrPPCdkmlEPPsYISKMlfPcrtF7W9GfbtYQ/Twrp+4GTa41+Sg/h/quX4bSTAouiv/fDh8rZZUSSoVeHXlhWRdZD4V5sVI6QleqGJgtulHL0ly/lPUQovyRzw7muYZMEM/+Wxe36AHzzYO7Sri3aM/8ptE+9tTXc96pvyehfy3fKTeD2TQUQzGQeT/moOGUDPCP538kiAmfzzl9ruOOu2mIj/Pz1mjDSJytXhuQxcbahBNQhdSzvufZ6eXYd9EbTKb4fu3UslnOhQtZAdwuPXpMumEGUNXFW0q+41aj4qecf+ftxWnKBI4BunqjzL1WJ6s1ZJyWnM5i4le9qnQjDAbTq1K9I8l8swCNW3gmjPbabuWT/M/KKYMJQNP944OmzAO4Tq0To/3oyZ5wfI5l01Ljq8HadEazDwEih/oBg7TiTF6g4UQ6eBscEsalpdnL4YflQXKtVvojqfCXma8a39/qhwTSzaaReo07J8KRBjZ6+F1f0hYTpS+bGGqwoAwjKb7Y/jVP9i32UEhm2mJ726rzbwPi6O9AGEd/1Z////t/heWmW1n9DJ/T38rnwSCxUsAUSahxdjNqqpNSLCaPSQfftKmXQ9r9v9ZPE8RyDxQahQ8E+CaBpaob5spZhoex/f8kJdxKdb/hiy42gjuD7lKhFS075fvjq/HvEUYK1UbwG1dMqKAAAAA"><div class="hidden text-center xl:block"><span class="text-[#75777E] font-medium dark:text-[#7E8088]">Edwin Quenguan</span></div></button><ul class="w-full flex gap-[3px]
+            md:flex-col
+            xl:flex-col"><li><a class="" href="/home" data-discover="true"><div id="home-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">home</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Inicio</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/dashboard" data-discover="true"><div id="dashboard-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">space_dashboard</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Panel</span><span class="text-nowrap">De Control</span></div></div></a></li><li><a class="" href="/users" data-discover="true"><div id="users-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">groups</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Usuarios</span><span class="text-nowrap"></span></div></div></a></li><li><a aria-current="page" class="active" href="/products" data-discover="true"><div id="products-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            bg-black font-medium shadow-[0px_0px_32px_-9px_#000000] text-white fill-white
+            dark:bg-white dark:text-black dark:shadow-[0px_0px_32px_-11px_#ffffff] animate-clickEffect"><span class="material-symbols-rounded 
+            fill-white animate-iconFill group-hover:scale-105 dark:fill-black" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">shopping_cart</span><div class="hidden gap-1 text-center font-medium text-xs
+            
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Productos</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/categories" data-discover="true"><div id="categories-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">folder_open</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Categorías</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/subcategories" data-discover="true"><div id="subcategories-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">folder_copy</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Subcategorías</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/reports" data-discover="true"><div id="reports-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">finance_mode</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Informes</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/warranties" data-discover="true"><div id="warranties-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">service_toolbox</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Garantías</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/suppliers" data-discover="true"><div id="suppliers-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">group</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Proveedores</span><span class="text-nowrap"></span></div></div></a></li><li><a class="" href="/output-orders" data-discover="true"><div id="outputs-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">shuffle</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Órdenes</span><span class="text-nowrap">de salida</span></div></div></a></li></ul></section><section class="order-2 md:py-3.5"><ul class="flex flex-col gap-1"><span class="text-sm text-[#75777eb7] pb-2 md:pl-1 xl:pl-3">Otros</span><li class="rounded-2xl transition-colors duration-300 text-[#75777E] font-normal
+              hover:bg-[#e5e7eb96]
+              dark:text-[#7E8088] dark:hover:bg-[#181818]"><button class="w-full"><section class="w-full h-14 flex items-center justify-center gap-2.5 py-2.5 subpixel-antialiased transition-colors duration-300 group
+                    md:pl-0
+                    xl:w-full xl:h-auto xl:justify-start xl:pl-7
+                    dark:text-[#7E8088]"><span class="material-symbols-rounded fill-none text-[#75777eb7]
+                        group-hover:text-black group-hover:[--icon-weight:500]
+                        dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">feedback</span><span class="hidden font-medium group-hover:text-black dark:group-hover:text-white 
+                        xl:block">Ayuda</span></section></button></li><li class="rounded-2xl transition-colors duration-300 text-[#75777E] font-normal
+              hover:bg-[#e5e7eb96]
+              dark:text-[#7E8088] dark:hover:bg-[#181818]"><a class="" href="/" data-discover="true"><div id="logout-desktop-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">logout</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Cerrar Sesión</span><span class="text-nowrap"></span></div></div></a></li></ul></section></nav><section class="relative w-screen flex justify-between pb-1 pl-1 pr-2
+      sm:px-2
+      md:hidden"><ul class="w-auto h-full flex px-1 gap-0.5 rounded-full shadow-[1px_1px_10px_5px_#00000014] bg-white
+        dark:bg-black dark:shadow-[1px_1px_1px_4px_#ffffff14]"><li class="py-1.5 rounded-full"><a class="" href="/home" data-discover="true"><div id="home-mobile-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">home</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Inicio</span><span class="text-nowrap"></span></div></div></a></li><li class="py-1.5 rounded-full"><a class="" href="/users" data-discover="true"><div id="users-mobile-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">groups</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Usuarios</span><span class="text-nowrap"></span></div></div></a></li><li class="py-1.5 rounded-full"><a aria-current="page" class="active" href="/products" data-discover="true"><div id="products-mobile-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            bg-black font-medium shadow-[0px_0px_32px_-9px_#000000] text-white fill-white
+            dark:bg-white dark:text-black dark:shadow-[0px_0px_32px_-11px_#ffffff] animate-clickEffect"><span class="material-symbols-rounded 
+            fill-white animate-iconFill group-hover:scale-105 dark:fill-black" style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">shopping_cart</span><div class="hidden gap-1 text-center font-medium text-xs
+            
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Productos</span><span class="text-nowrap"></span></div></div></a></li><li class="py-1.5 rounded-full"><a class="" href="/reports" data-discover="true"><div id="reports-mobile-aside-button" class="w-auto h-14 flex flex-col items-center py-3 px-6 justify-center subpixel-antialiased rounded-full transition-colors duration-300 group
+            md:rounded-2xl md:w-full md:h-full md:py-4
+            xl:flex-row xl:pl-6 xl:py-2.5 xl:gap-2.5 xl:justify-start
+            text-[#75777E] font-normal
+            hover:bg-[#e5e7eb96]
+            dark:text-[#75777eb7] dark:hover:bg-[#181818]"><span class="material-symbols-rounded 
+            text-[#75777eb7] fill-none group-hover:text-black group-hover:[--icon-weight:500] dark:group-hover:text-white" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 25; font-size: 25px;">finance_mode</span><div class="hidden gap-1 text-center font-medium text-xs
+            group-hover:text-black dark:group-hover:text-white
+            xl:text-base xl:flex
+            "><span class="text-nowrap">Informes</span><span class="text-nowrap"></span></div></div></a></li></ul><button class="self-end w-auto h-16 flex flex-col items-center justify-center py-2.5 px-5 rounded-full bg-black cursor-pointer group
+        dark:bg-white"><span class="material-symbols-rounded text-white group-hover:text-white dark:text-black dark:group-hover:text-black" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">more_horiz</span></button></section></aside><main class="w-full h-full pl-1.5 pr-2 py-2 dark:bg-black overflow-y-auto order-1
+        md:order-2 md:py-4 md:max-h-full md:overflow-hidden
+        xl:order-2 xl:pb-3 xl:max-h-full"><section class="h-[13%] w-full flex items-center justify-between pb-2 block
+      sm:h-[9%]
+      md:h-[6%]
+      "><span class="pl-1 text-nowrap text-xl font-medium dark:text-white">Productos</span><div class="w-full flex justify-end gap-2
+        lg:gap-3"><div class="flex items-center px-5 w-fit border border-[#a1a1a140] rounded-3xl
+      md:w-[40%] md:pr-3 md:px-0
+      lg:w-[30%]
+      2xl:w-[20%]
+      dark:border-[#34343a77]"><input id="search-text" placeholder="Buscar" class="hidden w-full py-2.5 px-5 rounded-3xl outline-none
+        md:inline-block
+        placeholder:text-[14px] placeholder:text-gray-400
+        dark:bg-black dark:placeholder:text-[#b4aab49f] dark:text-white" type="text" value=""><span class="material-symbols-rounded dark:brightness-200" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px; color: rgba(126, 128, 136, 0.624);">search</span></div><button id="filter-button" class="flex items-center px-5 py-2.5 gap-2 rounded-3xl bg-[#FBF9FC] transition-all duration-200 border border-gray-200
+        block
+        hover:bg-gray-300
+        dark:bg-[#101012] dark:hover:bg-[#38383b9f] dark:shadow-none dark:border-none"><span class="material-symbols-rounded dark:text-[#C5C6CE]" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">page_info</span><span class="hidden font-medium dark:text-[#C5C6CE] lg:block">Filtrar</span></button><button id="create-button" class="flex items-center px-5 py-5 gap-2 rounded-[40px] bg-black transition duration-500 block
+      lg:rounded-3xl lg:py-3
+      hover:bg-black/90 hover:shadow-black/20
+      dark:bg-white dark:hover:shadow-[0px_0px_32px_-11px_#ffffff]" data-flip-id="modal-morph-_r_0_" style="translate: none; rotate: none; scale: none; opacity: 0 !important;"><span class="material-symbols-rounded invert dark:brightness-200 dark:invert-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 600), 'GRAD' 0, 'opsz' 24; font-size: 24px;">box_add</span><span data-flip-id="modal-title" class="hidden text-white font-medium dark:text-black lg:block" style="translate: none; rotate: none; scale: none;">Agregar Producto</span></button></div></section><section class="h-[30%] mb-3 p-1
+      md:h-[10%] md:p-0"><div class="h-full flex flex-wrap items-center gap-1
+          md:flex-nowrap md:gap-4"><div class="h-[50%] w-[49%] flex flex-col items-start py-3 px-5 gap-1 rounded-3xl bg-[#f5f3f6]
+      md:w-full md:h-full md:py-5 md:px-6
+      dark:bg-[#101012]"><span class="text-sm text-[#75777E]
+        dark:text-[#7E8088]">Creados recientemente</span><span class="text-2xl font-medium
+        dark:text-[#E2E4E5]">36</span></div><div class="h-[50%] w-[49%] flex flex-col items-start py-3 px-5 gap-1 rounded-3xl bg-[#f5f3f6]
+      md:w-full md:h-full md:py-5 md:px-6
+      dark:bg-[#101012]"><span class="text-sm text-[#75777E]
+        dark:text-[#7E8088]">Vendidos</span><span class="text-2xl font-medium
+        dark:text-[#E2E4E5]">9</span></div><div class="h-[50%] w-[49%] flex flex-col items-start py-3 px-5 gap-1 rounded-3xl bg-[#f5f3f6]
+      md:w-full md:h-full md:py-5 md:px-6
+      dark:bg-[#101012]"><span class="text-sm text-[#75777E]
+        dark:text-[#7E8088]">En garantía</span><span class="text-2xl font-medium
+        dark:text-[#E2E4E5]">10</span></div><div class="h-[50%] w-[49%] flex flex-col items-start py-3 px-5 gap-1 rounded-3xl bg-[#f5f3f6]
+      md:w-full md:h-full md:py-5 md:px-6
+      dark:bg-[#101012]"><span class="text-sm text-[#75777E]
+        dark:text-[#7E8088]">Total</span><span class="text-2xl font-medium
+        dark:text-[#E2E4E5]">36</span></div></div></section><section class="h-auto border w-full max-h-[55%] border-gray-200 rounded-3xl overflow-y-auto overflow-x-auto overflow-hidden
+      md:max-h-[83%]
+      dark:border-[#17171a]"><table class=" h-auto w-full border-gray-200 appearance-none border-collapse
+          dark:bg-black"><thead class="sticky h-10 min-w-full top-0 z-10
+            dark:text-white dark:bg-black"><tr class="border-b bg-white border-gray-200 text-sm text-nowrap
+              dark:border-[#1e1e20e1] dark:bg-[#101012]"><th class="font-medium text-start pl-4 pt-1">Estado</th><th class="font-medium text-start pl-4 pt-1">Fecha de Ingreso</th><th class="font-medium text-start pl-4 pt-1">Orden De Entrada</th><th class="font-medium text-start pl-4 pt-1">Categoria</th><th class="font-medium text-start pl-4 pt-1">Subcategoria</th><th class="font-medium text-start pl-4 pt-1">Serial</th><th class="font-medium text-start pl-4 pt-1">Modelo</th><th class="font-medium text-start pl-4 pt-1">Descripción</th><th class="font-medium text-start pl-4 pt-1">Marca</th><th class="font-medium text-start px-4 pt-1">Tiempo de Garantia</th><th class="font-medium text-start px-4">Acciones</th></tr></thead><tbody class="w-full min-h-full font-normal dark:text-gray-300"><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Junio 30 2026</th><th class="font-normal text-start pl-4 text-sm">INP00001</th><th class="font-normal text-start pl-4 text-sm">Mouses</th><th class="font-normal text-start pl-4 text-sm">Mouse Gamers</th><th class="font-normal text-start pl-4 text-sm">123456789021782847434326313</th><th class="font-normal text-start pl-4 text-sm">Logitech G Pro X</th><th class="font-normal text-start pl-4 text-sm">Teclado mecánico gamer con switches intercambiables</th><th class="font-normal text-start pl-4 text-sm">Logitech</th><th class="pl-4 font-normal text-start text-sm">2028-06-30</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-33-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-33-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00023</th><th class="font-normal text-start pl-4 text-sm">Redes</th><th class="font-normal text-start pl-4 text-sm">Switches</th><th class="font-normal text-start pl-4 text-sm">QTYS7300111</th><th class="font-normal text-start pl-4 text-sm">Cisco Catalyst 9300</th><th class="font-normal text-start pl-4 text-sm">Switch empresarial de alto rendimiento</th><th class="font-normal text-start pl-4 text-sm">Cisco</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-32-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-32-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00023</th><th class="font-normal text-start pl-4 text-sm">Redes</th><th class="font-normal text-start pl-4 text-sm">Routers</th><th class="font-normal text-start pl-4 text-sm">QTYS7302648</th><th class="font-normal text-start pl-4 text-sm">TP-Link Deco X60</th><th class="font-normal text-start pl-4 text-sm">Sistema WiFi Mesh con cobertura para hogares grandes</th><th class="font-normal text-start pl-4 text-sm">TP-Link</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-31-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-31-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00022</th><th class="font-normal text-start pl-4 text-sm">Auriculares</th><th class="font-normal text-start pl-4 text-sm">Auriculares Gamers</th><th class="font-normal text-start pl-4 text-sm">QTYS4829157</th><th class="font-normal text-start pl-4 text-sm">HyperX Alpha Wireless</th><th class="font-normal text-start pl-4 text-sm">Auriculares inalámbricos gamer con batería de 300h</th><th class="font-normal text-start pl-4 text-sm">HyperX</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-30-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-30-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00017</th><th class="font-normal text-start pl-4 text-sm">Mouses</th><th class="font-normal text-start pl-4 text-sm">Mouse Gamers</th><th class="font-normal text-start pl-4 text-sm">QTYS6574830</th><th class="font-normal text-start pl-4 text-sm">Razer Viper Ultimate</th><th class="font-normal text-start pl-4 text-sm">Mouse inalámbrico gamer ultraligero con 20K DPI</th><th class="font-normal text-start pl-4 text-sm">Razer</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-29-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-29-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00016</th><th class="font-normal text-start pl-4 text-sm">Mouses</th><th class="font-normal text-start pl-4 text-sm">Mouse Gamers</th><th class="font-normal text-start pl-4 text-sm">QTYS3847561</th><th class="font-normal text-start pl-4 text-sm">Logitech G Pro X</th><th class="font-normal text-start pl-4 text-sm">Teclado mecánico gamer con switches intercambiables</th><th class="font-normal text-start pl-4 text-sm">Logitech</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-28-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-28-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00024</th><th class="font-normal text-start pl-4 text-sm">Memorias RAM</th><th class="font-normal text-start pl-4 text-sm">Memorias RAM DDR5</th><th class="font-normal text-start pl-4 text-sm">QTYS9081726</th><th class="font-normal text-start pl-4 text-sm">Crucial Ballistix 32GB DDR5</th><th class="font-normal text-start pl-4 text-sm">Memoria RAM DDR5 para gaming y servidores</th><th class="font-normal text-start pl-4 text-sm">Crucial</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-27-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-27-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00021</th><th class="font-normal text-start pl-4 text-sm">Memorias RAM</th><th class="font-normal text-start pl-4 text-sm">Memorias RAM DDR4</th><th class="font-normal text-start pl-4 text-sm">QTYS7654329</th><th class="font-normal text-start pl-4 text-sm">Kingston Fury Beast 16GB DDR4</th><th class="font-normal text-start pl-4 text-sm">Memoria RAM para alto rendimiento</th><th class="font-normal text-start pl-4 text-sm">Kingston</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-26-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-26-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00019</th><th class="font-normal text-start pl-4 text-sm">Discos Duros</th><th class="font-normal text-start pl-4 text-sm">SDD</th><th class="font-normal text-start pl-4 text-sm">QTYS1928374</th><th class="font-normal text-start pl-4 text-sm">Kioxia Exceria 500GB</th><th class="font-normal text-start pl-4 text-sm">Disco SSD NVMe de alta velocidad</th><th class="font-normal text-start pl-4 text-sm">Kioxia</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-25-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-25-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00019</th><th class="font-normal text-start pl-4 text-sm">Televisores</th><th class="font-normal text-start pl-4 text-sm">LCD</th><th class="font-normal text-start pl-4 text-sm">QTYS5647382</th><th class="font-normal text-start pl-4 text-sm">LG NanoCell 55NANO80</th><th class="font-normal text-start pl-4 text-sm">Smart TV LG 55” con tecnología NanoCell 4K</th><th class="font-normal text-start pl-4 text-sm">LG</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-24-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-24-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00002</th><th class="font-normal text-start pl-4 text-sm">EDITADA224121782847537745999</th><th class="font-normal text-start pl-4 text-sm">Portatiles</th><th class="font-normal text-start pl-4 text-sm">QTYS1357924</th><th class="font-normal text-start pl-4 text-sm">MacBook Pro 14"</th><th class="font-normal text-start pl-4 text-sm">Laptop Apple con chip M1 Pro y pantalla Retina</th><th class="font-normal text-start pl-4 text-sm">Apple</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-23-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-23-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00025</th><th class="font-normal text-start pl-4 text-sm">EDITADA224121782847537745999</th><th class="font-normal text-start pl-4 text-sm">Portatiles</th><th class="font-normal text-start pl-4 text-sm">QTYS2468135</th><th class="font-normal text-start pl-4 text-sm">Asus ROG Strix G15</th><th class="font-normal text-start pl-4 text-sm">Laptop gamer con RTX 3060 y 16GB RAM</th><th class="font-normal text-start pl-4 text-sm">Asus</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-22-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-22-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00026</th><th class="font-normal text-start pl-4 text-sm">EDITADA224121782847537745999</th><th class="font-normal text-start pl-4 text-sm">Portatiles</th><th class="font-normal text-start pl-4 text-sm">QTYS9876543</th><th class="font-normal text-start pl-4 text-sm">Lenovo ThinkPad X1 Carbon</th><th class="font-normal text-start pl-4 text-sm">Portátil ultraligero con procesador Intel i7 y 16GB RAM</th><th class="font-normal text-start pl-4 text-sm">Lenovo</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-21-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-21-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00002</th><th class="font-normal text-start pl-4 text-sm">Redes</th><th class="font-normal text-start pl-4 text-sm">Cables de red</th><th class="font-normal text-start pl-4 text-sm">QTYS1234567</th><th class="font-normal text-start pl-4 text-sm">Cable Cat6 UTP</th><th class="font-normal text-start pl-4 text-sm">Cable de red de 2 metros</th><th class="font-normal text-start pl-4 text-sm">Cisco</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-20-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-20-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00020</th><th class="font-normal text-start pl-4 text-sm">Redes</th><th class="font-normal text-start pl-4 text-sm">Switches</th><th class="font-normal text-start pl-4 text-sm">QTYS7654321</th><th class="font-normal text-start pl-4 text-sm">Cisco SG350-28</th><th class="font-normal text-start pl-4 text-sm">Switch gestionable de 28 puertos</th><th class="font-normal text-start pl-4 text-sm">Cisco</th><th class="pl-4 font-normal text-start text-sm">2030-06-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-19-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-19-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00019</th><th class="font-normal text-start pl-4 text-sm">Redes</th><th class="font-normal text-start pl-4 text-sm">Routers</th><th class="font-normal text-start pl-4 text-sm">QTYR1234567</th><th class="font-normal text-start pl-4 text-sm">TP-Link Archer AX50</th><th class="font-normal text-start pl-4 text-sm">Router WiFi 6 de alta velocidad</th><th class="font-normal text-start pl-4 text-sm">TP-Link</th><th class="pl-4 font-normal text-start text-sm">2030-05-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-18-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-18-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00018</th><th class="font-normal text-start pl-4 text-sm">Auriculares</th><th class="font-normal text-start pl-4 text-sm">Auriculares Gamers</th><th class="font-normal text-start pl-4 text-sm">QTYQ3332220</th><th class="font-normal text-start pl-4 text-sm">HyperX Cloud II</th><th class="font-normal text-start pl-4 text-sm">Auriculares gamer con sonido envolvente</th><th class="font-normal text-start pl-4 text-sm">HyperX</th><th class="pl-4 font-normal text-start text-sm">2030-04-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-17-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-17-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-blue-100 text-blue-600 dark:bg-blue-950/70 dark:text-[#60a5fa]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">credit_card</span><span>Vendido</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00017</th><th class="font-normal text-start pl-4 text-sm">Mouses</th><th class="font-normal text-start pl-4 text-sm">Mouse Gamers</th><th class="font-normal text-start pl-4 text-sm">QTYP5554441</th><th class="font-normal text-start pl-4 text-sm">Razer DeathAdder V2</th><th class="font-normal text-start pl-4 text-sm">Mouse gamer ergonómico</th><th class="font-normal text-start pl-4 text-sm">Razer</th><th class="pl-4 font-normal text-start text-sm">2030-03-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-16-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-16-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00002</th><th class="font-normal text-start pl-4 text-sm">Teclados</th><th class="font-normal text-start pl-4 text-sm">Teclados Mecanicos</th><th class="font-normal text-start pl-4 text-sm">QTYA9876543</th><th class="font-normal text-start pl-4 text-sm">Logitech MX Keys</th><th class="font-normal text-start pl-4 text-sm">Teclado inalámbrico retroiluminado</th><th class="font-normal text-start pl-4 text-sm">Logitech</th><th class="pl-4 font-normal text-start text-sm">2029-01-15</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-15-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-15-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr><tr class="relative w-full text-base overflow-auto transition duration-75 text-[#45474d] dark:text-white
+                hover:bg-[#F5F3F6]
+                dark:hover:bg-[#101012]"><th class="font-normal pl-4 text-sm"><div class="w-fit flex items-center pl-1.5 pr-3 py-0.5 gap-1.5 rounded-full border text-nowrap
+                    dark:border-transparent
+                    w-fit bg-green-100 text-green-600 dark:bg-[#00ff151f] dark:text-[#00ff3779]"><span class="material-symbols-rounded " style="font-variation-settings: 'FILL' 1, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 14; font-size: 14px;">circle</span><span>Activo</span></div></th><th class="font-normal text-start pl-4 text-sm">Abril 05 2026</th><th class="font-normal text-start pl-4 text-sm">INP00016</th><th class="font-normal text-start pl-4 text-sm">Teclados</th><th class="font-normal text-start pl-4 text-sm">Teclados Mecanicos</th><th class="font-normal text-start pl-4 text-sm">QTYO9876543</th><th class="font-normal text-start pl-4 text-sm">Logitech MX Keys</th><th class="font-normal text-start pl-4 text-sm">Teclado inalámbrico retroiluminado</th><th class="font-normal text-start pl-4 text-sm">Logitech</th><th class="pl-4 font-normal text-start text-sm">2030-02-01</th><th class="relative flex items-center justify-center h-14 pr-4 gap-3"><section class="flex items-center justify-center gap-3 dark:invert"><button id="edit-product-15-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+          hover:bg-[#969292a8]"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">edit</span></button></section><button id="edit-product-status-15-button" class="flex items-center transition-colors duration-300 rounded-xl p-1.5 bg-[#FFFFFF]
+                    hover:bg-[#969292a8] dark:invert"><span class="material-symbols-rounded dark:brightness-0" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">swap_horiz</span></button></th></tr></tbody></table></section></main></div><div id="modal-root"><section class="fixed inset-0" style="z-index: 50; background-color: rgba(0, 0, 0, 0.08);"><section class="p-7 w-[400px] md:w-[500px] bg-[#fbf9fc] rounded-[32px] shadow-lg
+        dark:border-2 dark:bg-black dark:border-[#1e1e209f]" data-flip-modal-id="_r_0_" data-flip-id="modal-morph-_r_0_" style="visibility: visible; will-change: auto; opacity: 1; position: fixed; top: 64px; left: 542px; width: 500px; height: auto; margin: 0px; border-radius: 32px; overflow: hidden auto; translate: none; rotate: none; scale: none;"><div style="translate: none; rotate: none; scale: none; transform: translate3d(0px, 0px, 0px);"><header class="flex justify-between items-center mb-2"><span data-flip-id="modal-title" class="min-w-56 font-medium text-lg dark:text-[#e4e2e5]" style="">Agregar Producto</span><button class="w-10 h-10 p-2.5 self-end flex items-center justify-center
+              hover:bg-[#49454f21] dark:hover:bg-[#28282bbd] rounded-full"><span class="material-symbols-rounded dark:invert" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">close</span></button></header><form action="javascript:throw new Error('A React form was unexpectedly submitted. If you called form.submit() manually, consider using form.requestSubmit() instead. If you\'re trying to use event.stopPropagation() in a submit event handler, consider also calling event.preventDefault().')" class="w-full flex flex-col items-center gap-2"><section class="relative w-full flex flex-col gap-1"><div class="h-[66px] w-full flex items-center gap-1.5"><button id="input-orders-menu" type="button" class="relative w-full h-full pt-1.5 pr-2 flex items-center bg-[#FBF9FC] border border-[#a1a1a131]
+            rounded-2xl cursor-pointer text-sm
+            dark:bg-black dark:border-[#1e1e20cb]
+            shadow-sm" data-flip-id="modal-morph-_r_1_" style="translate: none; rotate: none; scale: none;"><div class="absolute top-2 left-3 px-1"><span class="text-xs bg-[#FBF9FC] text-[#7E777E] dark:bg-black dark:text-[#7E8088]">Orden de entrada</span></div><div class="w-full h-full flex pl-4 pt-3 dark:text-[#E4E2E5]"><div class="w-full flex items-center text-base">INP00001</div></div><span class="material-symbols-rounded dark:text-[#7e8088]" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">arrow_drop_down</span></button><button type="button" class="h-16 flex items-center justify-center px-5 border rounded-2xl transition-colors duration-200 bg-[#FBF9FC] shadow-sm
+            hover:bg-gray-200 hover:cursor-pointer
+            dark:bg-black dark:border-[#1e1e20cb] dark:hover:bg-[#28282bbd]"><span class="material-symbols-rounded dark:text-[#E4E2E5]" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 22; font-size: 22px;">add</span></button></div></section><section class="relative w-full flex flex-col gap-1"><div class="h-[66px] w-full flex items-center gap-1.5"><button id="subcategories-menu" type="button" class="relative w-full h-full pt-1.5 pr-2 flex items-center bg-[#FBF9FC] border border-[#a1a1a131]
+            rounded-2xl cursor-pointer text-sm
+            dark:bg-black dark:border-[#1e1e20cb]
+            shadow-sm" data-flip-id="modal-morph-_r_2_" style="translate: none; rotate: none; scale: none;"><div class="absolute top-2 left-3 px-1"><span class="text-xs bg-[#FBF9FC] text-[#7E777E] dark:bg-black dark:text-[#7E8088]">Subcategoria</span></div><div class="w-full h-full flex pl-4 pt-3 dark:text-[#E4E2E5]"><div class="w-full flex items-center text-base">Seleccionar</div></div><span class="material-symbols-rounded dark:text-[#7e8088]" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">arrow_drop_down</span></button><button type="button" class="h-16 flex items-center justify-center px-5 border rounded-2xl transition-colors duration-200 bg-[#FBF9FC] shadow-sm
+            hover:bg-gray-200 hover:cursor-pointer
+            dark:bg-black dark:border-[#1e1e20cb] dark:hover:bg-[#28282bbd]"><span class="material-symbols-rounded dark:text-[#E4E2E5]" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 22; font-size: 22px;">add</span></button></div></section><section class="relative w-full flex flex-col gap-1"><div class="h-[66px] w-full flex items-center gap-1.5"><button id="brands-menu" type="button" class="relative w-full h-full pt-1.5 pr-2 flex items-center bg-[#FBF9FC] border border-[#a1a1a131]
+            rounded-2xl cursor-pointer text-sm
+            dark:bg-black dark:border-[#1e1e20cb]
+            shadow-sm" data-flip-id="modal-morph-_r_3_" style="translate: none; rotate: none; scale: none; opacity: 0 !important;"><div class="absolute top-2 left-3 px-1"><span class="text-xs bg-[#FBF9FC] text-[#7E777E] dark:bg-black dark:text-[#7E8088]">Marca</span></div><div class="w-full h-full flex pl-4 pt-3 dark:text-[#E4E2E5]"><div class="w-full flex items-center text-base">Seleccionar</div></div><span class="material-symbols-rounded dark:text-[#7e8088]" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">arrow_drop_down</span></button><button type="button" class="h-16 flex items-center justify-center px-5 border rounded-2xl transition-colors duration-200 bg-[#FBF9FC] shadow-sm
+            hover:bg-gray-200 hover:cursor-pointer
+            dark:bg-black dark:border-[#1e1e20cb] dark:hover:bg-[#28282bbd]"><span class="material-symbols-rounded dark:text-[#E4E2E5]" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 22; font-size: 22px;">add</span></button></div></section><section class="relative w-full flex flex-col gap-1"><div class="h-[66px] w-full flex items-center gap-1.5"><button id="models-menu" type="button" class="relative w-full h-full pt-1.5 pr-2 flex items-center bg-[#FBF9FC] border border-[#a1a1a131]
+            rounded-2xl cursor-pointer text-sm
+            dark:bg-black dark:border-[#1e1e20cb]
+            shadow-sm"><div class="absolute top-2 left-3 px-1"><span class="text-xs bg-[#FBF9FC] text-[#7E777E] dark:bg-black dark:text-[#7E8088]">Modelo</span></div><div class="w-full h-full flex pl-4 pt-3 dark:text-[#E4E2E5]"><div class="w-full flex items-center text-base">Seleccionar</div></div><span class="material-symbols-rounded dark:text-[#7e8088]" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">arrow_drop_down</span></button><button type="button" class="h-16 flex items-center justify-center px-5 border rounded-2xl transition-colors duration-200 bg-[#FBF9FC] shadow-sm
+            hover:bg-gray-200 hover:cursor-pointer
+            dark:bg-black dark:border-[#1e1e20cb] dark:hover:bg-[#28282bbd]"><span class="material-symbols-rounded dark:text-[#E4E2E5]" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 22; font-size: 22px;">add</span></button></div></section><div class="relative min-h-[66px] max-h-[350px] flex flex-wrap w-full border pl-4 pb-1 rounded-2xl bg-[#FBF9FC] overflow-hidden cursor-text
+      focus-within:shadow-[0_0_3px_2px_#e5e7eb]
+      dark:bg-black dark:border-[#1e1e20cb] dark:focus-within:shadow-[0_0_3px_3px_#28282b]
+      shadow-sm
+      "><label for="product_serials" class="
+          absolute left-3.5 top-5 px-0.5
+          -translate-y-1/2
+          text-xs text-[#7E777E]
+          pointer-events-none
+          transition-all duration-200
+          bg-[#FBF9FC] dark:bg-black dark:text-[#b4aab4]
+        ">Serial/es</label><div class="flex flex-wrap gap-1 w-full mt-7"><input required="" placeholder="10KQ340" id="product_serials" autocomplete="off" class="
+          w-auto h-8 outline-none
+          bg-transparent rounded-xl
+          transition-all duration-200
+          dark:text-[#E4E2E5] dark:placeholder:text-[#b4aab4]
+        " type="text" value="" name="product_serials"></div></div><section class="relative w-full flex flex-col gap-1"><div class="h-[66px] w-full flex items-center gap-1.5"><button id="warranty-times-menu" type="button" class="relative w-full h-full pt-1.5 pr-2 flex items-center bg-[#FBF9FC] border border-[#a1a1a131]
+            rounded-2xl cursor-pointer text-sm
+            dark:bg-black dark:border-[#1e1e20cb]
+            shadow-sm"><div class="absolute top-2 left-3 px-1"><span class="text-xs bg-[#FBF9FC] text-[#7E777E] dark:bg-black dark:text-[#7E8088]">Tiempo de garantía</span></div><div class="w-full h-full flex pl-4 pt-3 dark:text-[#E4E2E5]"><div class="w-full flex items-center text-base">Seleccionar</div></div><span class="material-symbols-rounded dark:text-[#7e8088]" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">arrow_drop_down</span></button></div></section><div class="flex items-center justify-center my-2"><span class="dark:text-white">o</span></div><div class="flex items-center justify-center"><button class="flex items-center py-3 px-4 gap-2 border rounded-2xl transition duration-300 
+          hover:bg-gray-200
+          dark:bg-[#2020226c] dark:hover:bg-[#2c2c2e] dark:border-[#101012] hover:cursor-pointer" disabled=""><span class="material-symbols-rounded dark:invert" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;">barcode_scanner</span><span class="text-sm dark:text-white">¡Proximamente!</span></button></div><section class="flex undefined items-center self-center pt-5 gap-2"><button id="confirm-button" type="submit" class="h-11 flex items-center px-5 py-2.5 gap-2 font-medium text-sm bg-black text-white rounded-2xl transition duration-300
+        hover:text-gray-300
+        dark:bg-white dark:text-black dark:hover:text-gray-800"><span class="material-symbols-rounded dark:invert-0 hidden" style="font-variation-settings: 'FILL' 0, 'wght' var(--icon-weight, 400), 'GRAD' 0, 'opsz' 24; font-size: 24px;"></span><span>Crear</span></button><button id="cancel-button" type="button" class="undefined h-11 px-5 py-2.5 rounded-2xl text-sm transition duration-300 bg-[#F5F3F6]
+        hover:bg-gray-200
+        dark:bg-[#101012] dark:text-white dark:hover:bg-[#28282bbd]"><span>Cancelar</span></button></section></form></div></section></section><section class="fixed inset-0" style="z-index: 600; background-color: rgba(0, 0, 0, 0.08);"><section class="p-1 w-[350px] md:w-[400px] bg-[#fbf9fc] rounded-[32px] shadow-lg
+        dark:border-2 dark:bg-black dark:border-[#1e1e209f]" data-flip-modal-id="_r_3_" data-flip-id="modal-morph-_r_3_" style="visibility: visible; will-change: transform; opacity: 1; position: fixed; top: 290px; left: 572px; width: 400px; height: 396px; margin: 0px; border-radius: 32px; overflow: hidden; min-height: 66px; min-width: 370px; color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); padding: 4px; translate: none; rotate: none; scale: none; transform: translate(-15px, -165px); max-width: 400px; max-height: 396px;" data-closing="true"><div style="translate: none; rotate: none; scale: none; transform: translate3d(0px, 0px, 0px); box-sizing: border-box; height: 384px; width: 388px; left: 4px; top: 4px; position: absolute;"><div class="w-full max-h-96 flex flex-col gap-1 px-1 pt-1 overflow-y-auto rounded-3xl bg-[#fbf9fc]
+            dark:bg-black dark:text-white  
+            min-h-96
+            "><input id="search-menu-bar" placeholder="Buscar..." class="w-full min-h-[50px] px-5 sticky top-0.5 text-sm rounded-full border border-[#a1a1a131] outline-none
+                dark:border-[#28282ba1] dark:bg-black dark:text-white dark:placeholder:text-[#b4aab4]" type="text" value=""><button id="brands-menu-25-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Apple</span></button><button id="brands-menu-11-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Asus</span></button><button id="brands-menu-5-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Brother</span></button><button id="brands-menu-2-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Canon</span></button><button id="brands-menu-15-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Challenger</span></button><button id="brands-menu-24-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Cisco</span></button><button id="brands-menu-19-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Crucial</span></button><button id="brands-menu-3-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Epson</span></button><button id="brands-menu-14-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Genius</span></button><button id="brands-menu-4-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Hp</span></button><button id="brands-menu-22-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>HyperX</span></button><button id="brands-menu-18-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Kingston</span></button><button id="brands-menu-17-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Kioxia</span></button><button id="brands-menu-10-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Lenovo</span></button><button id="brands-menu-7-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>LG</span></button><button id="brands-menu-20-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Logitech</span></button><button id="brands-menu-6-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Makita</span></button><button id="brands-menu-12-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Panasonic</span></button><button id="brands-menu-21-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Razer</span></button><button id="brands-menu-13-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Ricoh</span></button><button id="brands-menu-8-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Samsung</span></button><button id="brands-menu-9-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Sony</span></button><button id="brands-menu-23-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>TP-Link</span></button><button id="brands-menu-16-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>WESTERN DIGITAL WD</span></button><button id="brands-menu-1-option" class="min-h-[52px] flex items-center px-5 cursor-pointer text-sm rounded-full transition-colors
+                      hover:bg-[#efedf0] hover:font-medium  
+                      dark:hover:bg-[#ffffff15]
+                      "><span>Zebra</span></button></div></div></section></section></div></div></div>
+    <div id="modal-root"></div>
+  
+
+</body></html>

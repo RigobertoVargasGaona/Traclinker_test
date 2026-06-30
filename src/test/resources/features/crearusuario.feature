@@ -10,7 +10,7 @@ Característica: Crear usuario
     Dado que el usuario está en la página de inicio de sesión
     Cuando el usuario ingresa credenciales válidas
       | usuario             | clave |
-      | juanesyt@gmail.com  | 12345 |
+      | juanesyt7@gmail.com  | 12345 |
 
   @crearUsuario
   Esquema del escenario: Agregar un usuario correctamente

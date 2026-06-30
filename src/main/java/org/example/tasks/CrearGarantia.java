@@ -33,7 +33,6 @@ public class CrearGarantia implements Task {
         String suffix =
                 System.currentTimeMillis() + String.format("%03d", ThreadLocalRandom.current().nextInt(1000));
         String serialUnico = registros.get(0).getSerial() + suffix;
-        String clienteUnico = registros.get(0).getCliente() + suffix;
         String telefonoUnico = registros.get(0).getTelefono() + suffix;
 
         try {
@@ -67,20 +66,25 @@ public class CrearGarantia implements Task {
                     Click.on(BOTON_VOLVER_PAGINA)
             );
 
+            Thread.sleep(10000);
+
             actor.attemptsTo(Click.on(BTN_GARANTIAS));
             Thread.sleep(2000);
 
             actor.attemptsTo(
                     Click.on(BTN_AGREGAR_GARANTIA),
+
                     Click.on(INPUT_SERIAL),
                     Enter.theValue(serialUnico)
                             .into(INPUT_SERIAL),
-                    Click.on(INPUT_CLIENTE),
-                    Enter.theValue(clienteUnico)
-                            .into(INPUT_CLIENTE),
+
+                    Click.on(MENU_CLIENTE),
+                    Click.on(OPCION_MENU_CLIENTE),
+
                     Click.on(INPUT_TELEFONO),
                     Enter.theValue(telefonoUnico)
                             .into(INPUT_TELEFONO),
+
                     Click.on(INPUT_DIRECCCION),
                     Enter.theValue(registros.get(0).getDireccion())
                             .into(INPUT_DIRECCCION),
@@ -91,9 +95,11 @@ public class CrearGarantia implements Task {
                     Click.on(INPUT_DESCRIPCION),
                     Enter.theValue(registros.get(0).getDescripcion())
                             .into(INPUT_DESCRIPCION),
+
                     Click.on(INPUT_ADJUNTOS),
                     Enter.theValue(registros.get(0).getAdjuntos())
                             .into(INPUT_ADJUNTOS),
+
                     Click.on(BTN_CREAR)
             );
 
